@@ -6,6 +6,7 @@ DATASET_FPATH = "BESS_op_data.csv"
 FIGURE1_FPATH = "figure_dataset.png"
 FIGURE2_MAX_FPATH = "figure_localmaxima.png"
 
+
 # Invoked to write a message to a text logfile and also print it
 def init_logging(logfilename, loglevel=logging.INFO):
   for handler in logging.root.handlers[:]:

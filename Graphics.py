@@ -35,7 +35,7 @@ def fig_dataset():
     fig.show()
 
 
-def fig_maxima():
+def fig_scatter_on_line(points_of_interest, label):
     _y1_ed, _y2_er, y3_soc = Utilities.get_data()
     x = list(range(len(y3_soc)))
 
@@ -46,16 +46,30 @@ def fig_maxima():
 
     ax.plot(x, y3_soc, label="State Of Charge")
 
-    local_maxima_indices = Compute.get_local_maxima(k=50)
     y_scatter = []
     for i in range(len(y3_soc)):
-        if i in local_maxima_indices:
+        if i in points_of_interest:
             y_scatter.append(y3_soc[i])
         else:
             y_scatter.append(nan)
-    ax.scatter(x, y_scatter, label="Local maxima")
+    ax.scatter(x, y_scatter, label=label)
     ax.legend()
 
-    plt.savefig(Utilities.FIGURE2_MAX_FPATH, dpi=500)
+    plt.savefig("figure_" + label + ".png", dpi=500)
     fig.show()
+
+
+def plot_trips():
+    _ed, _er, soc_ls = Utilities.get_data()
+    x = list(range(len(soc_ls)))
+    local_maxima_indices = Compute.get_local_maxima(soc_ls, k=50)
+    trips = Compute.get_recharge_points(soc_ls, local_maxima_indices)
+    rt_extremes = []
+    for trip in trips:
+        rt_extremes.append(trip[0])
+        rt_extremes.append(trip[1])
+
+    fig_scatter_on_line(rt_extremes, "extremes of partial trips")
+
+
 
