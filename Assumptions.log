@@ -1,0 +1,1916 @@
+INFO : i=34, discharging: pre_soc= 50.781 > next_soc=50.768
+INFO : y1_ed = 4293004.277, 4293004.277
+INFO : y2_er = 4923485.191, 4923485.625
+INFO : *
+INFO : i=65, discharging: pre_soc= 2.39 > next_soc=2.045
+INFO : y1_ed = 4312879.311, 4312944.718
+INFO : y2_er = 4923485.625, 4923492.122
+INFO : *
+INFO : i=66, discharging: pre_soc= 2.045 > next_soc=1.958
+INFO : y1_ed = 4312944.718, 4312951.216
+INFO : y2_er = 4923492.122, 4923515.512
+INFO : *
+INFO : i=67, discharging: pre_soc= 1.958 > next_soc=1.896
+INFO : y1_ed = 4312951.216, 4312986.735
+INFO : y2_er = 4923515.512, 4923526.341
+INFO : *
+INFO : i=68, discharging: pre_soc= 1.896 > next_soc=1.756
+INFO : y1_ed = 4312986.735, 4313020.954
+INFO : y2_er = 4923526.341, 4923544.534
+INFO : *
+INFO : i=69, discharging: pre_soc= 1.756 > next_soc=1.706
+INFO : y1_ed = 4313020.954, 4313059.072
+INFO : y2_er = 4923544.534, 4923560.994
+INFO : *
+INFO : i=70, discharging: pre_soc= 1.706 > next_soc=1.441
+INFO : y1_ed = 4313059.072, 4313114.083
+INFO : y2_er = 4923560.994, 4923569.224
+INFO : *
+INFO : i=71, discharging: pre_soc= 1.441 > next_soc=0.742
+INFO : y1_ed = 4313114.083, 4313137.04
+INFO : y2_er = 4923569.224, 4923605.176
+INFO : *
+INFO : i=72, discharging: pre_soc= 0.742 > next_soc=0.644
+INFO : y1_ed = 4313137.04, 4313137.04
+INFO : y2_er = 4923605.176, 4923764.145
+INFO : *
+INFO : i=111, discharging: pre_soc= 7.932 > next_soc=7.92
+INFO : y1_ed = 4313140.506, 4313140.506
+INFO : y2_er = 4926551.952, 4926565.38
+INFO : *
+INFO : i=151, charging: pre_soc= 15.56 < next_soc=15.58
+INFO : y1_ed = 4313140.506, 4313156.533
+INFO : y2_er = 4930365.91, 4930365.91
+INFO : *
+INFO : i=197, discharging: pre_soc= 10.014 > next_soc=9.819
+INFO : y1_ed = 4315011.749, 4315065.461
+INFO : y2_er = 4930365.91, 4930366.344
+INFO : *
+INFO : i=261, discharging: pre_soc= 69.759 > next_soc=69.752
+INFO : y1_ed = 4315065.461, 4315065.461
+INFO : y2_er = 4958267.367, 4958809.248
+INFO : *
+INFO : i=285, charging: pre_soc= 81.707 < next_soc=81.892
+INFO : y1_ed = 4315065.461, 4315228.762
+INFO : y2_er = 4964368.401, 4964383.562
+INFO : *
+INFO : i=337, discharging: pre_soc= 5.055 > next_soc=5.016
+INFO : y1_ed = 4346306.568, 4346306.568
+INFO : y2_er = 4964383.562, 4964383.995
+INFO : *
+INFO : i=349, discharging: pre_soc= 4.667 > next_soc=4.646
+INFO : y1_ed = 4346306.568, 4346306.568
+INFO : y2_er = 4964383.995, 4964384.428
+INFO : *
+INFO : i=371, discharging: pre_soc= 4.289 > next_soc=4.28
+INFO : y1_ed = 4346306.568, 4346306.568
+INFO : y2_er = 4964384.428, 4964439.439
+INFO : *
+INFO : i=395, charging: pre_soc= 19.51 < next_soc=19.608
+INFO : y1_ed = 4346306.568, 4346308.3
+INFO : y2_er = 4971567.058, 4971602.577
+INFO : *
+INFO : i=397, discharging: pre_soc= 19.533 > next_soc=19.239
+INFO : y1_ed = 4346409.226, 4346519.682
+INFO : y2_er = 4971602.577, 4971608.642
+INFO : *
+INFO : i=398, discharging: pre_soc= 19.239 > next_soc=19.083
+INFO : y1_ed = 4346519.682, 4346589.853
+INFO : y2_er = 4971608.642, 4971633.765
+INFO : *
+INFO : i=399, discharging: pre_soc= 19.083 > next_soc=18.929
+INFO : y1_ed = 4346589.853, 4346670.854
+INFO : y2_er = 4971633.765, 4971647.193
+INFO : *
+INFO : i=400, discharging: pre_soc= 18.929 > next_soc=18.77
+INFO : y1_ed = 4346670.854, 4346735.828
+INFO : y2_er = 4971647.193, 4971675.781
+INFO : *
+INFO : i=401, discharging: pre_soc= 18.77 > next_soc=18.703
+INFO : y1_ed = 4346735.828, 4346791.272
+INFO : y2_er = 4971675.781, 4971715.632
+INFO : *
+INFO : i=402, discharging: pre_soc= 18.703 > next_soc=18.571
+INFO : y1_ed = 4346791.272, 4346902.594
+INFO : y2_er = 4971715.632, 4971718.231
+INFO : *
+INFO : i=405, discharging: pre_soc= 17.942 > next_soc=17.687
+INFO : y1_ed = 4347173.317, 4347266.446
+INFO : y2_er = 4971718.231, 4971729.926
+INFO : *
+INFO : i=407, discharging: pre_soc= 17.417 > next_soc=17.094
+INFO : y1_ed = 4347402.025, 4347525.908
+INFO : y2_er = 4971729.926, 4971734.257
+INFO : *
+INFO : i=408, discharging: pre_soc= 17.094 > next_soc=16.897
+INFO : y1_ed = 4347525.908, 4347622.936
+INFO : y2_er = 4971734.257, 4971755.482
+INFO : *
+INFO : i=409, discharging: pre_soc= 16.897 > next_soc=16.667
+INFO : y1_ed = 4347622.936, 4347710.867
+INFO : y2_er = 4971755.482, 4971766.744
+INFO : *
+INFO : i=410, discharging: pre_soc= 16.667 > next_soc=16.563
+INFO : y1_ed = 4347710.867, 4347765.012
+INFO : y2_er = 4971766.744, 4971800.097
+INFO : *
+INFO : i=411, discharging: pre_soc= 16.563 > next_soc=16.396
+INFO : y1_ed = 4347765.012, 4347868.97
+INFO : y2_er = 4971800.097, 4971806.162
+INFO : *
+INFO : i=412, discharging: pre_soc= 16.396 > next_soc=16.175
+INFO : y1_ed = 4347868.97, 4347954.735
+INFO : y2_er = 4971806.162, 4971816.124
+INFO : *
+INFO : i=441, discharging: pre_soc= 8.591 > next_soc=8.47
+INFO : y1_ed = 4351066.111, 4351113.325
+INFO : y2_er = 4971816.124, 4971834.75
+INFO : *
+INFO : i=443, discharging: pre_soc= 8.347 > next_soc=8.274
+INFO : y1_ed = 4351175.7, 4351204.721
+INFO : y2_er = 4971834.75, 4971959.067
+INFO : *
+INFO : i=444, charging: pre_soc= 8.274 < next_soc=8.491
+INFO : y1_ed = 4351204.721, 4351345.498
+INFO : y2_er = 4971959.067, 4972028.805
+INFO : *
+INFO : i=455, discharging: pre_soc= 1.582 > next_soc=0.681
+INFO : y1_ed = 4354280.145, 4354400.996
+INFO : y2_er = 4972028.805, 4972030.971
+INFO : *
+INFO : i=456, discharging: pre_soc= 0.681 > next_soc=0.562
+INFO : y1_ed = 4354400.996, 4354400.996
+INFO : y2_er = 4972030.971, 4972037.035
+INFO : *
+INFO : i=457, discharging: pre_soc= 0.562 > next_soc=0.56
+INFO : y1_ed = 4354400.996, 4354400.996
+INFO : y2_er = 4972037.035, 4972065.623
+INFO : *
+INFO : i=458, discharging: pre_soc= 0.56 > next_soc=0.555
+INFO : y1_ed = 4354400.996, 4354400.996
+INFO : y2_er = 4972065.623, 4972290.433
+INFO : *
+INFO : i=479, charging: pre_soc= 12.229 < next_soc=13.077
+INFO : y1_ed = 4354400.996, 4354401.429
+INFO : y2_er = 4977568.466, 4977821.431
+INFO : *
+INFO : i=480, charging: pre_soc= 13.077 < next_soc=13.136
+INFO : y1_ed = 4354401.429, 4354498.024
+INFO : y2_er = 4977821.431, 4977821.431
+INFO : *
+INFO : i=481, discharging: pre_soc= 13.136 > next_soc=12.965
+INFO : y1_ed = 4354498.024, 4354515.35
+INFO : y2_er = 4977821.431, 4977847.853
+INFO : *
+INFO : i=484, charging: pre_soc= 14.705 < next_soc=15.157
+INFO : y1_ed = 4354515.35, 4354522.714
+INFO : y2_er = 4978850.615, 4978880.502
+INFO : *
+INFO : i=485, discharging: pre_soc= 15.157 > next_soc=15.089
+INFO : y1_ed = 4354522.714, 4354590.286
+INFO : y2_er = 4978880.502, 4978889.599
+INFO : *
+INFO : i=489, discharging: pre_soc= 14.351 > next_soc=14.034
+INFO : y1_ed = 4354939.412, 4355046.402
+INFO : y2_er = 4978889.599, 4978890.032
+INFO : *
+INFO : i=490, discharging: pre_soc= 14.034 > next_soc=13.914
+INFO : y1_ed = 4355046.402, 4355058.531
+INFO : y2_er = 4978890.032, 4978922.519
+INFO : *
+INFO : i=491, charging: pre_soc= 13.914 < next_soc=14.041
+INFO : y1_ed = 4355058.531, 4355061.563
+INFO : y2_er = 4978922.519, 4979097.082
+INFO : *
+INFO : i=563, charging: pre_soc= 95.965 < next_soc=96.706
+INFO : y1_ed = 4355061.563, 4355067.627
+INFO : y2_er = 5017443.283, 5017711.841
+INFO : *
+INFO : i=631, discharging: pre_soc= 23.536 > next_soc=23.498
+INFO : y1_ed = 4385417.294, 4385419.46
+INFO : y2_er = 5017711.841, 5017718.339
+INFO : *
+INFO : i=635, charging: pre_soc= 23.745 < next_soc=24.038
+INFO : y1_ed = 4385419.46, 4385532.081
+INFO : y2_er = 5017926.255, 5018038.443
+INFO : *
+INFO : i=645, discharging: pre_soc= 14.644 > next_soc=14.294
+INFO : y1_ed = 4389466.457, 4389497.645
+INFO : y2_er = 5018038.443, 5018038.876
+INFO : *
+INFO : i=649, discharging: pre_soc= 13.399 > next_soc=13.242
+INFO : y1_ed = 4389887.487, 4389918.241
+INFO : y2_er = 5018038.876, 5018039.309
+INFO : *
+INFO : i=656, discharging: pre_soc= 12.717 > next_soc=12.682
+INFO : y1_ed = 4390088.473, 4390088.473
+INFO : y2_er = 5018039.309, 5018045.373
+INFO : *
+INFO : i=657, discharging: pre_soc= 12.682 > next_soc=12.679
+INFO : y1_ed = 4390088.473, 4390088.473
+INFO : y2_er = 5018045.373, 5018063.133
+INFO : *
+INFO : i=677, discharging: pre_soc= 10.546 > next_soc=10.346
+INFO : y1_ed = 4390924.901, 4390966.484
+INFO : y2_er = 5018063.133, 5018079.593
+INFO : *
+INFO : i=686, discharging: pre_soc= 10.944 > next_soc=10.935
+INFO : y1_ed = 4390966.484, 4390966.484
+INFO : y2_er = 5018397.098, 5018424.387
+INFO : *
+INFO : i=743, discharging: pre_soc= 10.628 > next_soc=10.286
+INFO : y1_ed = 4393903.731, 4393948.346
+INFO : y2_er = 5021577.346, 5021592.506
+INFO : *
+INFO : i=911, discharging: pre_soc= 1.069 > next_soc=0.923
+INFO : y1_ed = 4433798.473, 4433804.537
+INFO : y2_er = 5063239.374, 5063241.973
+INFO : *
+INFO : i=912, discharging: pre_soc= 0.923 > next_soc=0.909
+INFO : y1_ed = 4433804.537, 4433804.537
+INFO : y2_er = 5063241.973, 5063248.037
+INFO : *
+INFO : i=914, charging: pre_soc= 0.999 < next_soc=1.01
+INFO : y1_ed = 4433804.537, 4433812.334
+INFO : y2_er = 5063253.668, 5063257.134
+INFO : *
+INFO : i=915, discharging: pre_soc= 1.01 > next_soc=0.964
+INFO : y1_ed = 4433812.334, 4433823.596
+INFO : y2_er = 5063257.134, 5063328.605
+INFO : *
+INFO : i=916, discharging: pre_soc= 0.964 > next_soc=0.959
+INFO : y1_ed = 4433823.596, 4433823.596
+INFO : y2_er = 5063328.605, 5063871.785
+INFO : *
+INFO : i=924, charging: pre_soc= 10.35 < next_soc=10.836
+INFO : y1_ed = 4433823.596, 4433979.1
+INFO : y2_er = 5067737.29, 5067792.734
+INFO : *
+INFO : i=928, discharging: pre_soc= 6.931 > next_soc=6.808
+INFO : y1_ed = 4435564.459, 4435564.459
+INFO : y2_er = 5067792.734, 5067896.692
+INFO : *
+INFO : i=930, charging: pre_soc= 7.255 < next_soc=7.649
+INFO : y1_ed = 4435564.459, 4435637.663
+INFO : y2_er = 5068160.918, 5068262.71
+INFO : *
+INFO : i=931, discharging: pre_soc= 7.649 > next_soc=7.509
+INFO : y1_ed = 4435637.663, 4435686.61
+INFO : y2_er = 5068262.71, 5068325.518
+INFO : *
+INFO : i=932, charging: pre_soc= 7.509 < next_soc=7.783
+INFO : y1_ed = 4435686.61, 4435696.573
+INFO : y2_er = 5068325.518, 5068475.391
+INFO : *
+INFO : i=936, discharging: pre_soc= 6.317 > next_soc=5.852
+INFO : y1_ed = 4436498.782, 4436613.136
+INFO : y2_er = 5068475.391, 5068482.755
+INFO : *
+INFO : i=938, discharging: pre_soc= 5.548 > next_soc=5.283
+INFO : y1_ed = 4436748.281, 4436853.538
+INFO : y2_er = 5068482.755, 5068486.22
+INFO : *
+INFO : i=939, discharging: pre_soc= 5.283 > next_soc=5.023
+INFO : y1_ed = 4436853.538, 4436957.496
+INFO : y2_er = 5068486.22, 5068497.049
+INFO : *
+INFO : i=940, discharging: pre_soc= 5.023 > next_soc=4.817
+INFO : y1_ed = 4436957.496, 4437046.727
+INFO : y2_er = 5068497.049, 5068497.915
+INFO : *
+INFO : i=941, discharging: pre_soc= 4.817 > next_soc=4.704
+INFO : y1_ed = 4437046.727, 4437073.15
+INFO : y2_er = 5068497.915, 5068515.675
+INFO : *
+INFO : i=944, discharging: pre_soc= 4.661 > next_soc=4.456
+INFO : y1_ed = 4437117.765, 4437176.241
+INFO : y2_er = 5068515.675, 5068548.162
+INFO : *
+INFO : i=947, charging: pre_soc= 5.068 < next_soc=5.329
+INFO : y1_ed = 4437176.241, 4437178.84
+INFO : y2_er = 5068912.448, 5068978.721
+INFO : *
+INFO : i=948, charging: pre_soc= 5.329 < next_soc=5.355
+INFO : y1_ed = 4437178.84, 4437179.273
+INFO : y2_er = 5068978.721, 5068978.721
+INFO : *
+INFO : i=952, charging: pre_soc= 5.386 < next_soc=5.404
+INFO : y1_ed = 4437179.273, 4437179.707
+INFO : y2_er = 5069019.871, 5069056.256
+INFO : *
+INFO : i=964, discharging: pre_soc= 5.998 > next_soc=5.995
+INFO : y1_ed = 4437179.707, 4437179.707
+INFO : y2_er = 5069362.932, 5069388.922
+INFO : *
+INFO : i=967, charging: pre_soc= 6.159 < next_soc=6.256
+INFO : y1_ed = 4437179.707, 4437180.14
+INFO : y2_er = 5069505.875, 5069539.228
+INFO : *
+INFO : i=1035, discharging: pre_soc= 1.071 > next_soc=0.783
+INFO : y1_ed = 4443936.109, 4444004.981
+INFO : y2_er = 5074656.56, 5074656.993
+INFO : *
+INFO : i=1036, discharging: pre_soc= 0.783 > next_soc=0.53
+INFO : y1_ed = 4444004.981, 4444005.414
+INFO : y2_er = 5074656.993, 5074663.49
+INFO : *
+INFO : i=1037, discharging: pre_soc= 0.53 > next_soc=0.505
+INFO : y1_ed = 4444005.414, 4444005.414
+INFO : y2_er = 5074663.49, 5074686.014
+INFO : *
+INFO : i=1038, discharging: pre_soc= 0.505 > next_soc=0.498
+INFO : y1_ed = 4444005.414, 4444005.414
+INFO : y2_er = 5074686.014, 5074731.063
+INFO : *
+INFO : i=1041, discharging: pre_soc= 0.5 > next_soc=0.498
+INFO : y1_ed = 4444005.414, 4444005.414
+INFO : y2_er = 5074887.0, 5075181.114
+INFO : *
+INFO : i=1106, charging: pre_soc= 63.18 < next_soc=63.314
+INFO : y1_ed = 4444005.414, 4444110.239
+INFO : y2_er = 5103918.133, 5103935.893
+INFO : *
+INFO : i=1107, discharging: pre_soc= 63.314 > next_soc=62.786
+INFO : y1_ed = 4444110.239, 4444246.25
+INFO : y2_er = 5103935.893, 5103937.625
+INFO : *
+INFO : i=1110, charging: pre_soc= 64.153 < next_soc=64.577
+INFO : y1_ed = 4444246.25, 4444273.539
+INFO : y2_er = 5104529.753, 5104590.395
+INFO : *
+INFO : i=1128, discharging: pre_soc= 40.091 > next_soc=39.924
+INFO : y1_ed = 4454199.794, 4454204.126
+INFO : y2_er = 5104590.395, 5104961.178
+INFO : *
+INFO : i=1139, charging: pre_soc= 49.612 < next_soc=50.524
+INFO : y1_ed = 4454204.126, 4454204.559
+INFO : y2_er = 5109829.444, 5110123.558
+INFO : *
+INFO : i=1152, discharging: pre_soc= 36.537 > next_soc=36.244
+INFO : y1_ed = 4460306.026, 4460319.021
+INFO : y2_er = 5110123.558, 5110375.657
+INFO : *
+INFO : i=1163, charging: pre_soc= 44.919 < next_soc=45.762
+INFO : y1_ed = 4460319.021, 4460325.518
+INFO : y2_er = 5114437.382, 5114741.026
+INFO : *
+INFO : i=1176, discharging: pre_soc= 21.319 > next_soc=20.444
+INFO : y1_ed = 4470819.644, 4470894.58
+INFO : y2_er = 5114741.026, 5114883.968
+INFO : *
+INFO : i=1187, charging: pre_soc= 26.158 < next_soc=26.712
+INFO : y1_ed = 4470894.58, 4470901.944
+INFO : y2_er = 5117592.073, 5117790.027
+INFO : *
+INFO : i=1223, charging: pre_soc= 19.071 < next_soc=20.028
+INFO : y1_ed = 4478443.229, 4478443.662
+INFO : y2_er = 5122778.277, 5123114.841
+INFO : *
+INFO : i=1224, charging: pre_soc= 20.028 < next_soc=20.171
+INFO : y1_ed = 4478443.662, 4478532.027
+INFO : y2_er = 5123114.841, 5123116.574
+INFO : *
+INFO : i=1228, discharging: pre_soc= 19.1 > next_soc=19.061
+INFO : y1_ed = 4478929.233, 4478929.666
+INFO : y2_er = 5123116.574, 5123157.291
+INFO : *
+INFO : i=1229, charging: pre_soc= 19.061 < next_soc=19.096
+INFO : y1_ed = 4478929.666, 4478931.832
+INFO : y2_er = 5123157.291, 5123171.152
+INFO : *
+INFO : i=1233, discharging: pre_soc= 19.18 > next_soc=19.178
+INFO : y1_ed = 4478931.832, 4478931.832
+INFO : y2_er = 5123233.093, 5123250.853
+INFO : *
+INFO : i=1251, charging: pre_soc= 24.141 < next_soc=24.149
+INFO : y1_ed = 4478931.832, 4479000.271
+INFO : y2_er = 5125649.683, 5125664.844
+INFO : *
+INFO : i=1252, discharging: pre_soc= 24.149 > next_soc=24.078
+INFO : y1_ed = 4479000.271, 4479029.292
+INFO : y2_er = 5125664.844, 5125681.304
+INFO : *
+INFO : i=1253, discharging: pre_soc= 24.078 > next_soc=24.003
+INFO : y1_ed = 4479029.292, 4479084.737
+INFO : y2_er = 5125681.304, 5125701.662
+INFO : *
+INFO : i=1254, discharging: pre_soc= 24.003 > next_soc=23.896
+INFO : y1_ed = 4479084.737, 4479151.876
+INFO : y2_er = 5125701.662, 5125719.855
+INFO : *
+INFO : i=1255, discharging: pre_soc= 23.896 > next_soc=23.809
+INFO : y1_ed = 4479151.876, 4479187.395
+INFO : y2_er = 5125719.855, 5125744.978
+INFO : *
+INFO : i=1256, discharging: pre_soc= 23.809 > next_soc=23.769
+INFO : y1_ed = 4479187.395, 4479238.508
+INFO : y2_er = 5125744.978, 5125763.171
+INFO : *
+INFO : i=1257, discharging: pre_soc= 23.769 > next_soc=23.689
+INFO : y1_ed = 4479238.508, 4479258.0
+INFO : y2_er = 5125763.171, 5125786.561
+INFO : *
+INFO : i=1270, charging: pre_soc= 27.393 < next_soc=27.497
+INFO : y1_ed = 4479258.0, 4479299.583
+INFO : y2_er = 5127573.772, 5127609.724
+INFO : *
+INFO : i=1271, discharging: pre_soc= 27.497 > next_soc=27.404
+INFO : y1_ed = 4479299.583, 4479358.926
+INFO : y2_er = 5127609.724, 5127647.842
+INFO : *
+INFO : i=1329, discharging: pre_soc= 27.273 > next_soc=26.846
+INFO : y1_ed = 4480521.089, 4480723.374
+INFO : y2_er = 5128939.52, 5128939.953
+INFO : *
+INFO : i=1354, discharging: pre_soc= 25.558 > next_soc=25.528
+INFO : y1_ed = 4480735.07, 4480735.07
+INFO : y2_er = 5128939.953, 5128940.387
+INFO : *
+INFO : i=1355, discharging: pre_soc= 25.528 > next_soc=25.524
+INFO : y1_ed = 4480735.07, 4480735.07
+INFO : y2_er = 5128940.387, 5128991.066
+INFO : *
+INFO : i=1393, discharging: pre_soc= 71.694 > next_soc=70.917
+INFO : y1_ed = 4480735.07, 4480735.07
+INFO : y2_er = 5150237.912, 5150438.898
+INFO : *
+INFO : i=1400, discharging: pre_soc= 74.048 > next_soc=73.816
+INFO : y1_ed = 4480735.07, 4480735.07
+INFO : y2_er = 5151646.11, 5151847.095
+INFO : *
+INFO : i=1427, charging: pre_soc= 87.787 < next_soc=88.421
+INFO : y1_ed = 4480735.07, 4480784.883
+INFO : y2_er = 5158543.289, 5158725.215
+INFO : *
+INFO : i=1518, discharging: pre_soc= 11.503 > next_soc=11.478
+INFO : y1_ed = 4512776.22, 4512784.883
+INFO : y2_er = 5158725.215, 5158725.648
+INFO : *
+INFO : i=1529, discharging: pre_soc= 12.537 > next_soc=12.534
+INFO : y1_ed = 4512784.883, 4512784.883
+INFO : y2_er = 5159270.561, 5159275.326
+INFO : *
+INFO : i=1553, charging: pre_soc= 22.141 < next_soc=22.391
+INFO : y1_ed = 4512784.883, 4512791.813
+INFO : y2_er = 5163833.451, 5163924.414
+INFO : *
+INFO : i=1554, discharging: pre_soc= 22.391 > next_soc=22.39
+INFO : y1_ed = 4512791.813, 4512868.915
+INFO : y2_er = 5163924.414, 5163937.842
+INFO : *
+INFO : i=1555, discharging: pre_soc= 22.39 > next_soc=22.221
+INFO : y1_ed = 4512868.915, 4512934.756
+INFO : y2_er = 5163937.842, 5163965.564
+INFO : *
+INFO : i=1556, discharging: pre_soc= 22.221 > next_soc=22.209
+INFO : y1_ed = 4512934.756, 4512956.847
+INFO : y2_er = 5163965.564, 5164034.003
+INFO : *
+INFO : i=1559, charging: pre_soc= 22.658 < next_soc=22.767
+INFO : y1_ed = 4512956.847, 4512958.579
+INFO : y2_er = 5164245.384, 5164306.026
+INFO : *
+INFO : i=1560, charging: pre_soc= 22.767 < next_soc=22.92
+INFO : y1_ed = 4512958.579, 4512961.611
+INFO : y2_er = 5164306.026, 5164377.931
+INFO : *
+INFO : i=1561, charging: pre_soc= 22.92 < next_soc=22.969
+INFO : y1_ed = 4512961.611, 4513011.425
+INFO : y2_er = 5164377.931, 5164405.22
+INFO : *
+INFO : i=1562, discharging: pre_soc= 22.969 > next_soc=22.821
+INFO : y1_ed = 4513011.425, 4513095.457
+INFO : y2_er = 5164405.22, 5164422.979
+INFO : *
+INFO : i=1564, discharging: pre_soc= 22.583 > next_soc=22.268
+INFO : y1_ed = 4513231.036, 4513355.352
+INFO : y2_er = 5164422.979, 5164423.845
+INFO : *
+INFO : i=1565, discharging: pre_soc= 22.268 > next_soc=22.063
+INFO : y1_ed = 4513355.352, 4513425.091
+INFO : y2_er = 5164423.845, 5164446.37
+INFO : *
+INFO : i=1566, discharging: pre_soc= 22.063 > next_soc=21.983
+INFO : y1_ed = 4513425.091, 4513469.273
+INFO : y2_er = 5164446.37, 5164497.915
+INFO : *
+INFO : i=1567, charging: pre_soc= 21.983 < next_soc=22.073
+INFO : y1_ed = 4513469.273, 4513481.401
+INFO : y2_er = 5164497.915, 5164603.606
+INFO : *
+INFO : i=1570, charging: pre_soc= 22.727 < next_soc=22.922
+INFO : y1_ed = 4513481.401, 4513505.658
+INFO : y2_er = 5164915.913, 5164973.09
+INFO : *
+INFO : i=1571, discharging: pre_soc= 22.922 > next_soc=22.89
+INFO : y1_ed = 4513505.658, 4513555.471
+INFO : y2_er = 5164973.09, 5165081.38
+INFO : *
+INFO : i=1603, charging: pre_soc= 32.032 < next_soc=32.061
+INFO : y1_ed = 4513555.471, 4513555.904
+INFO : y2_er = 5169338.892, 5169338.892
+INFO : *
+INFO : i=1613, discharging: pre_soc= 32.094 > next_soc=32.08
+INFO : y1_ed = 4513557.204, 4513557.204
+INFO : y2_er = 5169338.892, 5169341.491
+INFO : *
+INFO : i=1689, charging: pre_soc= 96.711 < next_soc=97.014
+INFO : y1_ed = 4513557.204, 4513577.129
+INFO : y2_er = 5199906.438, 5199955.385
+INFO : *
+INFO : i=1691, discharging: pre_soc= 96.783 > next_soc=96.759
+INFO : y1_ed = 4513741.296, 4513744.328
+INFO : y2_er = 5199955.385, 5200074.936
+INFO : *
+INFO : i=1692, charging: pre_soc= 96.759 < next_soc=96.833
+INFO : y1_ed = 4513744.328, 4513798.906
+INFO : y2_er = 5200074.936, 5200084.899
+INFO : *
+INFO : i=1694, charging: pre_soc= 96.933 < next_soc=97.216
+INFO : y1_ed = 4513798.906, 4513860.415
+INFO : y2_er = 5200247.767, 5200319.238
+INFO : *
+INFO : i=1696, discharging: pre_soc= 96.737 > next_soc=96.019
+INFO : y1_ed = 4514216.038, 4514380.638
+INFO : y2_er = 5200319.238, 5200326.601
+INFO : *
+INFO : i=1697, discharging: pre_soc= 96.019 > next_soc=95.995
+INFO : y1_ed = 4514380.638, 4514380.638
+INFO : y2_er = 5200326.601, 5200452.217
+INFO : *
+INFO : i=1698, charging: pre_soc= 95.995 < next_soc=96.203
+INFO : y1_ed = 4514380.638, 4514410.093
+INFO : y2_er = 5200452.217, 5200497.699
+INFO : *
+INFO : i=1699, discharging: pre_soc= 96.203 > next_soc=96.165
+INFO : y1_ed = 4514410.093, 4514425.686
+INFO : y2_er = 5200497.699, 5200547.945
+INFO : *
+INFO : i=1701, charging: pre_soc= 96.304 < next_soc=96.487
+INFO : y1_ed = 4514425.686, 4514436.948
+INFO : y2_er = 5200638.475, 5200709.08
+INFO : *
+INFO : i=1702, charging: pre_soc= 96.487 < next_soc=96.529
+INFO : y1_ed = 4514436.948, 4514455.141
+INFO : y2_er = 5200709.08, 5200787.049
+INFO : *
+INFO : i=1703, charging: pre_soc= 96.529 < next_soc=96.784
+INFO : y1_ed = 4514455.141, 4514536.575
+INFO : y2_er = 5200787.049, 5200911.365
+INFO : *
+INFO : i=1716, discharging: pre_soc= 84.35 > next_soc=84.099
+INFO : y1_ed = 4519855.758, 4519864.855
+INFO : y2_er = 5200911.365, 5201138.34
+INFO : *
+INFO : i=1728, charging: pre_soc= 92.572 < next_soc=92.805
+INFO : y1_ed = 4519864.855, 4519968.813
+INFO : y2_er = 5205058.855, 5205077.048
+INFO : *
+INFO : i=1795, discharging: pre_soc= 13.008 > next_soc=12.55
+INFO : y1_ed = 4553245.763, 4553380.042
+INFO : y2_er = 5205077.048, 5205078.348
+INFO : *
+INFO : i=1796, discharging: pre_soc= 12.55 > next_soc=12.465
+INFO : y1_ed = 4553380.042, 4553380.042
+INFO : y2_er = 5205078.348, 5205131.626
+INFO : *
+INFO : i=1799, charging: pre_soc= 12.867 < next_soc=13.061
+INFO : y1_ed = 4553380.042, 4553415.994
+INFO : y2_er = 5205342.574, 5205413.179
+INFO : *
+INFO : i=1800, discharging: pre_soc= 13.061 > next_soc=12.974
+INFO : y1_ed = 4553415.994, 4553468.407
+INFO : y2_er = 5205413.179, 5205414.478
+INFO : *
+INFO : i=1803, discharging: pre_soc= 12.773 > next_soc=12.47
+INFO : y1_ed = 4553549.407, 4553717.473
+INFO : y2_er = 5205414.478, 5205414.911
+INFO : *
+INFO : i=1804, discharging: pre_soc= 12.47 > next_soc=12.094
+INFO : y1_ed = 4553717.473, 4553872.543
+INFO : y2_er = 5205414.911, 5205415.345
+INFO : *
+INFO : i=1805, discharging: pre_soc= 12.094 > next_soc=11.859
+INFO : y1_ed = 4553872.543, 4553911.961
+INFO : y2_er = 5205415.345, 5205417.51
+INFO : *
+INFO : i=1806, discharging: pre_soc= 11.859 > next_soc=11.803
+INFO : y1_ed = 4553911.961, 4553933.185
+INFO : y2_er = 5205417.51, 5205418.377
+INFO : *
+INFO : i=1807, discharging: pre_soc= 11.803 > next_soc=11.69
+INFO : y1_ed = 4553933.185, 4553990.362
+INFO : y2_er = 5205418.377, 5205422.275
+INFO : *
+INFO : i=1809, discharging: pre_soc= 11.525 > next_soc=11.392
+INFO : y1_ed = 4554054.47, 4554092.154
+INFO : y2_er = 5205422.275, 5205450.864
+INFO : *
+INFO : i=1811, charging: pre_soc= 11.443 < next_soc=11.515
+INFO : y1_ed = 4554092.154, 4554095.187
+INFO : y2_er = 5205493.746, 5205530.565
+INFO : *
+INFO : i=1812, charging: pre_soc= 11.515 < next_soc=11.522
+INFO : y1_ed = 4554095.187, 4554157.561
+INFO : y2_er = 5205530.565, 5205547.025
+INFO : *
+INFO : i=1813, discharging: pre_soc= 11.522 > next_soc=11.392
+INFO : y1_ed = 4554157.561, 4554216.904
+INFO : y2_er = 5205547.025, 5205565.651
+INFO : *
+INFO : i=1818, discharging: pre_soc= 10.55 > next_soc=10.359
+INFO : y1_ed = 4554577.292, 4554648.33
+INFO : y2_er = 5205565.651, 5205569.549
+INFO : *
+INFO : i=1819, discharging: pre_soc= 10.359 > next_soc=10.174
+INFO : y1_ed = 4554648.33, 4554726.731
+INFO : y2_er = 5205569.549, 5205572.581
+INFO : *
+INFO : i=1823, discharging: pre_soc= 9.532 > next_soc=9.383
+INFO : y1_ed = 4554997.455, 4555052.899
+INFO : y2_er = 5205572.581, 5205723.753
+INFO : *
+INFO : i=1875, discharging: pre_soc= 23.27 > next_soc=23.109
+INFO : y1_ed = 4555432.779, 4555500.785
+INFO : y2_er = 5212801.559, 5212802.859
+INFO : *
+INFO : i=1882, discharging: pre_soc= 20.853 > next_soc=20.479
+INFO : y1_ed = 4556486.22, 4556589.312
+INFO : y2_er = 5212802.859, 5212805.025
+INFO : *
+INFO : i=1883, discharging: pre_soc= 20.479 > next_soc=20.44
+INFO : y1_ed = 4556589.312, 4556589.312
+INFO : y2_er = 5212805.025, 5212892.523
+INFO : *
+INFO : i=1884, charging: pre_soc= 20.44 < next_soc=20.651
+INFO : y1_ed = 4556589.312, 4556601.007
+INFO : y2_er = 5212892.523, 5212948.833
+INFO : *
+INFO : i=1885, charging: pre_soc= 20.651 < next_soc=20.686
+INFO : y1_ed = 4556601.007, 4556605.339
+INFO : y2_er = 5212948.833, 5212989.983
+INFO : *
+INFO : i=1886, charging: pre_soc= 20.686 < next_soc=20.74
+INFO : y1_ed = 4556605.339, 4556648.221
+INFO : y2_er = 5212989.983, 5213015.106
+INFO : *
+INFO : i=1904, discharging: pre_soc= 6.97 > next_soc=6.499
+INFO : y1_ed = 4562436.948, 4562608.046
+INFO : y2_er = 5213015.106, 5213015.54
+INFO : *
+INFO : i=1906, discharging: pre_soc= 6.263 > next_soc=6.213
+INFO : y1_ed = 4562663.49, 4562663.49
+INFO : y2_er = 5213015.54, 5213018.139
+INFO : *
+INFO : i=1907, discharging: pre_soc= 6.213 > next_soc=6.184
+INFO : y1_ed = 4562663.49, 4562770.913
+INFO : y2_er = 5213018.139, 5213048.026
+INFO : *
+INFO : i=1912, discharging: pre_soc= 2.188 > next_soc=0.521
+INFO : y1_ed = 4564478.423, 4564545.13
+INFO : y2_er = 5213048.026, 5213050.192
+INFO : *
+INFO : i=1913, discharging: pre_soc= 0.521 > next_soc=0.37
+INFO : y1_ed = 4564545.13, 4564556.392
+INFO : y2_er = 5213050.192, 5213069.684
+INFO : *
+INFO : i=1914, discharging: pre_soc= 0.37 > next_soc=0.314
+INFO : y1_ed = 4564556.392, 4564556.392
+INFO : y2_er = 5213069.684, 5213194.434
+INFO : *
+INFO : i=1915, discharging: pre_soc= 0.314 > next_soc=0.289
+INFO : y1_ed = 4564556.392, 4564563.755
+INFO : y2_er = 5213194.434, 5213229.52
+INFO : *
+INFO : i=1916, discharging: pre_soc= 0.289 > next_soc=0.275
+INFO : y1_ed = 4564563.755, 4564563.755
+INFO : y2_er = 5213229.52, 5213353.403
+INFO : *
+INFO : i=1917, discharging: pre_soc= 0.275 > next_soc=0.176
+INFO : y1_ed = 4564563.755, 4564563.755
+INFO : y2_er = 5213353.403, 5213511.506
+INFO : *
+INFO : i=2006, discharging: pre_soc= 94.078 > next_soc=94.061
+INFO : y1_ed = 4564563.755, 4564563.755
+INFO : y2_er = 5256947.317, 5256947.75
+INFO : *
+INFO : i=2019, discharging: pre_soc= 93.23 > next_soc=93.204
+INFO : y1_ed = 4564564.622, 4564564.622
+INFO : y2_er = 5256947.75, 5256948.183
+INFO : *
+INFO : i=2045, discharging: pre_soc= 56.146 > next_soc=55.97
+INFO : y1_ed = 4579814.392, 4579814.392
+INFO : y2_er = 5256948.183, 5256948.617
+INFO : *
+INFO : i=2095, discharging: pre_soc= 5.711 > next_soc=5.696
+INFO : y1_ed = 4600561.806, 4600561.806
+INFO : y2_er = 5256948.617, 5256949.05
+INFO : *
+INFO : i=2136, charging: pre_soc= 31.272 < next_soc=31.943
+INFO : y1_ed = 4600561.806, 4600585.63
+INFO : y2_er = 5269252.477, 5269408.847
+INFO : *
+INFO : i=2141, discharging: pre_soc= 30.916 > next_soc=30.702
+INFO : y1_ed = 4601120.147, 4601151.335
+INFO : y2_er = 5269408.847, 5269409.28
+INFO : *
+INFO : i=2146, discharging: pre_soc= 29.627 > next_soc=29.451
+INFO : y1_ed = 4601643.402, 4601710.109
+INFO : y2_er = 5269409.28, 5269409.714
+INFO : *
+INFO : i=2147, discharging: pre_soc= 29.451 > next_soc=29.201
+INFO : y1_ed = 4601710.109, 4601811.901
+INFO : y2_er = 5269409.714, 5269414.478
+INFO : *
+INFO : i=2148, discharging: pre_soc= 29.201 > next_soc=29.12
+INFO : y1_ed = 4601811.901, 4601814.067
+INFO : y2_er = 5269414.478, 5269446.099
+INFO : *
+INFO : i=2161, charging: pre_soc= 30.248 < next_soc=30.386
+INFO : y1_ed = 4601814.067, 4601816.233
+INFO : y2_er = 5270057.285, 5270119.227
+INFO : *
+INFO : i=2167, charging: pre_soc= 31.593 < next_soc=31.758
+INFO : y1_ed = 4601816.233, 4601817.099
+INFO : y2_er = 5270726.082, 5270741.675
+INFO : *
+INFO : i=2169, discharging: pre_soc= 31.737 > next_soc=31.687
+INFO : y1_ed = 4601837.891, 4601841.789
+INFO : y2_er = 5270741.675, 5270745.141
+INFO : *
+INFO : i=2170, discharging: pre_soc= 31.687 > next_soc=31.676
+INFO : y1_ed = 4601841.789, 4601842.222
+INFO : y2_er = 5270745.141, 5270761.601
+INFO : *
+INFO : i=2179, discharging: pre_soc= 32.5 > next_soc=32.497
+INFO : y1_ed = 4601842.222, 4601842.222
+INFO : y2_er = 5271184.363, 5271188.261
+INFO : *
+INFO : i=2183, discharging: pre_soc= 32.171 > next_soc=32.025
+INFO : y1_ed = 4602009.854, 4602052.304
+INFO : y2_er = 5271188.261, 5271188.695
+INFO : *
+INFO : i=2189, discharging: pre_soc= 30.807 > next_soc=30.714
+INFO : y1_ed = 4602569.928, 4602569.928
+INFO : y2_er = 5271188.695, 5271204.288
+INFO : *
+INFO : i=2191, charging: pre_soc= 30.737 < next_soc=30.745
+INFO : y1_ed = 4602569.928, 4602593.319
+INFO : y2_er = 5271219.016, 5271221.181
+INFO : *
+INFO : i=2192, discharging: pre_soc= 30.745 > next_soc=30.629
+INFO : y1_ed = 4602593.319, 4602632.736
+INFO : y2_er = 5271221.181, 5271221.615
+INFO : *
+INFO : i=2193, discharging: pre_soc= 30.629 > next_soc=30.574
+INFO : y1_ed = 4602632.736, 4602632.736
+INFO : y2_er = 5271221.615, 5271231.577
+INFO : *
+INFO : i=2196, charging: pre_soc= 30.636 < next_soc=30.677
+INFO : y1_ed = 4602632.736, 4602634.035
+INFO : y2_er = 5271278.791, 5271300.016
+INFO : *
+INFO : i=2197, charging: pre_soc= 30.677 < next_soc=30.707
+INFO : y1_ed = 4602634.035, 4602634.902
+INFO : y2_er = 5271300.016, 5271331.204
+INFO : *
+INFO : i=2199, charging: pre_soc= 30.771 < next_soc=30.819
+INFO : y1_ed = 4602634.902, 4602636.634
+INFO : y2_er = 5271361.958, 5271378.851
+INFO : *
+INFO : i=2201, discharging: pre_soc= 30.72 > next_soc=30.662
+INFO : y1_ed = 4602695.977, 4602698.143
+INFO : y2_er = 5271378.851, 5271386.648
+INFO : *
+INFO : i=2202, charging: pre_soc= 30.662 < next_soc=30.663
+INFO : y1_ed = 4602698.143, 4602699.009
+INFO : y2_er = 5271386.648, 5271400.942
+INFO : *
+INFO : i=2203, charging: pre_soc= 30.663 < next_soc=30.68
+INFO : y1_ed = 4602699.009, 4602699.442
+INFO : y2_er = 5271400.942, 5271422.167
+INFO : *
+INFO : i=2210, charging: pre_soc= 33.349 < next_soc=33.4
+INFO : y1_ed = 4602699.442, 4602741.892
+INFO : y2_er = 5272711.246, 5272711.246
+INFO : *
+INFO : i=2212, discharging: pre_soc= 33.27 > next_soc=33.209
+INFO : y1_ed = 4602777.411, 4602783.475
+INFO : y2_er = 5272711.246, 5272722.508
+INFO : *
+INFO : i=2227, charging: pre_soc= 38.057 < next_soc=38.309
+INFO : y1_ed = 4602783.475, 4602805.133
+INFO : y2_er = 5275102.279, 5275111.809
+INFO : *
+INFO : i=2228, discharging: pre_soc= 38.309 > next_soc=38.288
+INFO : y1_ed = 4602805.133, 4602805.133
+INFO : y2_er = 5275111.809, 5275130.868
+INFO : *
+INFO : i=2235, charging: pre_soc= 39.59 < next_soc=39.898
+INFO : y1_ed = 4602805.133, 4602805.999
+INFO : y2_er = 5275846.445, 5275934.377
+INFO : *
+INFO : i=2237, discharging: pre_soc= 39.335 > next_soc=38.337
+INFO : y1_ed = 4603323.19, 4603575.721
+INFO : y2_er = 5275934.377, 5276000.65
+INFO : *
+INFO : i=2245, discharging: pre_soc= 39.967 > next_soc=39.927
+INFO : y1_ed = 4603580.053, 4603581.353
+INFO : y2_er = 5276804.158, 5276814.987
+INFO : *
+INFO : i=2256, charging: pre_soc= 43.893 < next_soc=44.301
+INFO : y1_ed = 4603581.353, 4603583.085
+INFO : y2_er = 5278563.214, 5278754.237
+INFO : *
+INFO : i=2257, charging: pre_soc= 44.301 < next_soc=44.409
+INFO : y1_ed = 4603583.085, 4603585.251
+INFO : y2_er = 5278754.237, 5278765.066
+INFO : *
+INFO : i=2262, charging: pre_soc= 45.737 < next_soc=46.193
+INFO : y1_ed = 4603585.251, 4603586.117
+INFO : y2_er = 5279516.595, 5279687.26
+INFO : *
+INFO : i=2277, charging: pre_soc= 54.314 < next_soc=54.812
+INFO : y1_ed = 4603586.117, 4603586.55
+INFO : y2_er = 5283563.16, 5283811.36
+INFO : *
+INFO : i=2305, charging: pre_soc= 80.855 < next_soc=80.886
+INFO : y1_ed = 4603586.55, 4603587.85
+INFO : y2_er = 5295993.503, 5295993.503
+INFO : *
+INFO : i=2306, discharging: pre_soc= 80.886 > next_soc=80.862
+INFO : y1_ed = 4603587.85, 4603587.85
+INFO : y2_er = 5295993.503, 5295994.369
+INFO : *
+INFO : i=2315, charging: pre_soc= 83.714 < next_soc=84.063
+INFO : y1_ed = 4603587.85, 4603619.037
+INFO : y2_er = 5297434.187, 5297556.338
+INFO : *
+INFO : i=2352, discharging: pre_soc= 33.991 > next_soc=33.805
+INFO : y1_ed = 4624629.812, 4624639.775
+INFO : y2_er = 5297556.338, 5297592.723
+INFO : *
+INFO : i=2365, charging: pre_soc= 35.789 < next_soc=35.892
+INFO : y1_ed = 4624639.775, 4624640.208
+INFO : y2_er = 5298577.725, 5298627.971
+INFO : *
+INFO : i=2377, charging: pre_soc= 38.393 < next_soc=38.493
+INFO : y1_ed = 4624640.208, 4624640.641
+INFO : y2_er = 5299807.894, 5299892.36
+INFO : *
+INFO : i=2388, discharging: pre_soc= 41.818 > next_soc=41.816
+INFO : y1_ed = 4624640.641, 4624902.702
+INFO : y2_er = 5301485.949, 5301515.404
+INFO : *
+INFO : i=2389, discharging: pre_soc= 41.816 > next_soc=41.01
+INFO : y1_ed = 4624902.702, 4625125.345
+INFO : y2_er = 5301515.404, 5301533.164
+INFO : *
+INFO : i=2390, discharging: pre_soc= 41.01 > next_soc=40.969
+INFO : y1_ed = 4625125.345, 4625125.345
+INFO : y2_er = 5301533.164, 5301577.779
+INFO : *
+INFO : i=2396, charging: pre_soc= 41.386 < next_soc=41.482
+INFO : y1_ed = 4625125.345, 4625127.511
+INFO : y2_er = 5301803.888, 5301845.471
+INFO : *
+INFO : i=2397, charging: pre_soc= 41.482 < next_soc=41.491
+INFO : y1_ed = 4625127.511, 4625154.367
+INFO : y2_er = 5301845.471, 5301845.471
+INFO : *
+INFO : i=2399, discharging: pre_soc= 41.419 > next_soc=41.343
+INFO : y1_ed = 4625181.656, 4625197.249
+INFO : y2_er = 5301845.471, 5301866.262
+INFO : *
+INFO : i=2416, discharging: pre_soc= 43.581 > next_soc=43.543
+INFO : y1_ed = 4625215.442, 4625215.442
+INFO : y2_er = 5302965.618, 5302991.608
+INFO : *
+INFO : i=2417, charging: pre_soc= 43.543 < next_soc=43.583
+INFO : y1_ed = 4625215.442, 4625215.875
+INFO : y2_er = 5302991.608, 5303007.634
+INFO : *
+INFO : i=2424, discharging: pre_soc= 43.645 > next_soc=43.569
+INFO : y1_ed = 4625273.918, 4625282.148
+INFO : y2_er = 5303083.87, 5303149.277
+INFO : *
+INFO : i=2443, discharging: pre_soc= 45.153 > next_soc=45.152
+INFO : y1_ed = 4625282.148, 4625282.148
+INFO : y2_er = 5303890.844, 5303895.176
+INFO : *
+INFO : i=2458, charging: pre_soc= 46.617 < next_soc=46.75
+INFO : y1_ed = 4625282.148, 4625289.945
+INFO : y2_er = 5304661.0, 5304680.058
+INFO : *
+INFO : i=2459, discharging: pre_soc= 46.75 > next_soc=46.709
+INFO : y1_ed = 4625289.945, 4625337.16
+INFO : y2_er = 5304680.058, 5304681.358
+INFO : *
+INFO : i=2484, discharging: pre_soc= 41.803 > next_soc=41.735
+INFO : y1_ed = 4627372.137, 4627448.806
+INFO : y2_er = 5304681.358, 5305007.959
+INFO : *
+INFO : i=2485, charging: pre_soc= 41.735 < next_soc=42.139
+INFO : y1_ed = 4627448.806, 4627472.63
+INFO : y2_er = 5305007.959, 5305011.425
+INFO : *
+INFO : i=2490, discharging: pre_soc= 37.525 > next_soc=36.842
+INFO : y1_ed = 4629569.549, 4629687.801
+INFO : y2_er = 5305011.425, 5305011.858
+INFO : *
+INFO : i=2494, charging: pre_soc= 39.753 < next_soc=40.703
+INFO : y1_ed = 4629687.801, 4629724.62
+INFO : y2_er = 5306675.619, 5306920.353
+INFO : *
+INFO : i=2495, discharging: pre_soc= 40.703 > next_soc=40.619
+INFO : y1_ed = 4629724.62, 4629803.021
+INFO : y2_er = 5306920.353, 5307005.252
+INFO : *
+INFO : i=2508, charging: pre_soc= 52.394 < next_soc=53.149
+INFO : y1_ed = 4629803.021, 4629810.385
+INFO : y2_er = 5312713.845, 5312869.349
+INFO : *
+INFO : i=2514, charging: pre_soc= 53.977 < next_soc=54.402
+INFO : y1_ed = 4629810.385, 4629812.551
+INFO : y2_er = 5313387.839, 5313696.681
+INFO : *
+INFO : i=2515, charging: pre_soc= 54.402 < next_soc=54.701
+INFO : y1_ed = 4629812.551, 4629841.572
+INFO : y2_er = 5313696.681, 5313697.114
+INFO : *
+INFO : i=2517, discharging: pre_soc= 54.678 > next_soc=54.592
+INFO : y1_ed = 4629841.572, 4629841.572
+INFO : y2_er = 5313697.114, 5313698.414
+INFO : *
+INFO : i=2519, charging: pre_soc= 55.022 < next_soc=55.958
+INFO : y1_ed = 4629841.572, 4629850.669
+INFO : y2_er = 5314235.097, 5314483.296
+INFO : *
+INFO : i=2520, charging: pre_soc= 55.958 < next_soc=55.989
+INFO : y1_ed = 4629850.669, 4629967.621
+INFO : y2_er = 5314483.296, 5314483.296
+INFO : *
+INFO : i=2521, discharging: pre_soc= 55.989 > next_soc=55.746
+INFO : y1_ed = 4629967.621, 4630030.863
+INFO : y2_er = 5314483.296, 5314483.729
+INFO : *
+INFO : i=2525, discharging: pre_soc= 55.358 > next_soc=55.266
+INFO : y1_ed = 4630117.494, 4630117.494
+INFO : y2_er = 5314483.729, 5314484.163
+INFO : *
+INFO : i=2535, discharging: pre_soc= 53.944 > next_soc=53.897
+INFO : y1_ed = 4630488.278, 4630512.535
+INFO : y2_er = 5314484.163, 5314484.596
+INFO : *
+INFO : i=2539, charging: pre_soc= 53.581 < next_soc=53.654
+INFO : y1_ed = 4630678.434, 4630684.498
+INFO : y2_er = 5314484.596, 5314841.518
+INFO : *
+INFO : i=2540, charging: pre_soc= 53.654 < next_soc=54.184
+INFO : y1_ed = 4630684.498, 4630712.22
+INFO : y2_er = 5314841.518, 5314885.7
+INFO : *
+INFO : i=2541, charging: pre_soc= 54.184 < next_soc=54.38
+INFO : y1_ed = 4630712.22, 4630720.884
+INFO : y2_er = 5314885.7, 5315009.15
+INFO : *
+INFO : i=2543, discharging: pre_soc= 54.356 > next_soc=54.252
+INFO : y1_ed = 4630747.739, 4630820.077
+INFO : y2_er = 5315009.15, 5315134.766
+INFO : *
+INFO : i=2587, discharging: pre_soc= 96.92 > next_soc=96.893
+INFO : y1_ed = 4630820.077, 4630820.077
+INFO : y2_er = 5335319.075, 5335319.508
+INFO : *
+INFO : i=2616, discharging: pre_soc= 80.113 > next_soc=79.962
+INFO : y1_ed = 4637961.99, 4637968.488
+INFO : y2_er = 5335319.508, 5335373.22
+INFO : *
+INFO : i=2686, discharging: pre_soc= 50.951 > next_soc=50.76
+INFO : y1_ed = 4650600.249, 4650639.233
+INFO : y2_er = 5336358.655, 5336360.388
+INFO : *
+INFO : i=2696, discharging: pre_soc= 49.439 > next_soc=49.361
+INFO : y1_ed = 4651168.12, 4651201.906
+INFO : y2_er = 5336360.388, 5336360.821
+INFO : *
+INFO : i=2707, charging: pre_soc= 49.457 < next_soc=49.518
+INFO : y1_ed = 4651407.223, 4651407.656
+INFO : y2_er = 5336360.821, 5336360.821
+INFO : *
+INFO : i=2762, discharging: pre_soc= 41.714 > next_soc=41.712
+INFO : y1_ed = 4654635.551, 4654635.551
+INFO : y2_er = 5336360.821, 5336361.254
+INFO : *
+INFO : i=2772, charging: pre_soc= 46.564 < next_soc=47.266
+INFO : y1_ed = 4654635.551, 4654709.622
+INFO : y2_er = 5338853.213, 5339052.899
+INFO : *
+INFO : i=2773, discharging: pre_soc= 47.266 > next_soc=47.226
+INFO : y1_ed = 4654709.622, 4654727.814
+INFO : y2_er = 5339052.899, 5339053.333
+INFO : *
+INFO : i=2780, discharging: pre_soc= 44.211 > next_soc=43.863
+INFO : y1_ed = 4656061.075, 4656218.745
+INFO : y2_er = 5339053.333, 5339053.766
+INFO : *
+INFO : i=2781, discharging: pre_soc= 43.863 > next_soc=43.386
+INFO : y1_ed = 4656218.745, 4656388.976
+INFO : y2_er = 5339053.766, 5339054.199
+INFO : *
+INFO : i=2783, charging: pre_soc= 43.517 < next_soc=44.208
+INFO : y1_ed = 4656388.976, 4656421.03
+INFO : y2_er = 5339396.394, 5339653.257
+INFO : *
+INFO : i=2796, charging: pre_soc= 58.806 < next_soc=59.151
+INFO : y1_ed = 4656421.03, 4656599.058
+INFO : y2_er = 5346615.41, 5346641.832
+INFO : *
+INFO : i=2803, discharging: pre_soc= 54.842 > next_soc=54.313
+INFO : y1_ed = 4658458.173, 4658556.933
+INFO : y2_er = 5346641.832, 5346642.265
+INFO : *
+INFO : i=2820, discharging: pre_soc= 48.035 > next_soc=47.807
+INFO : y1_ed = 4661239.482, 4661335.21
+INFO : y2_er = 5346642.265, 5346642.699
+INFO : *
+INFO : i=2821, discharging: pre_soc= 47.807 > next_soc=47.541
+INFO : y1_ed = 4661335.21, 4661422.275
+INFO : y2_er = 5346642.699, 5346643.132
+INFO : *
+INFO : i=2827, discharging: pre_soc= 46.841 > next_soc=46.728
+INFO : y1_ed = 4661664.844, 4661742.812
+INFO : y2_er = 5346643.132, 5346643.565
+INFO : *
+INFO : i=2830, charging: pre_soc= 46.713 < next_soc=47.343
+INFO : y1_ed = 4661825.112, 4661836.808
+INFO : y2_er = 5347023.878, 5347096.648
+INFO : *
+INFO : i=2881, charging: pre_soc= 97.699 < next_soc=97.986
+INFO : y1_ed = 4661836.808, 4661837.674
+INFO : y2_er = 5370909.524, 5370950.674
+INFO : *
+INFO : i=2882, charging: pre_soc= 97.986 < next_soc=97.991
+INFO : y1_ed = 4661837.674, 4661838.107
+INFO : y2_er = 5370950.674, 5370950.674
+INFO : *
+INFO : i=2936, discharging: pre_soc= 16.636 > next_soc=16.552
+INFO : y1_ed = 4695155.341, 4695155.341
+INFO : y2_er = 5370950.674, 5370951.107
+INFO : *
+INFO : i=2950, discharging: pre_soc= 10.131 > next_soc=9.966
+INFO : y1_ed = 4697791.109, 4697924.955
+INFO : y2_er = 5370951.107, 5370951.54
+INFO : *
+INFO : i=2953, discharging: pre_soc= 8.725 > next_soc=8.555
+INFO : y1_ed = 4698422.654, 4698452.542
+INFO : y2_er = 5370951.54, 5370951.974
+INFO : *
+INFO : i=2969, discharging: pre_soc= 6.816 > next_soc=6.789
+INFO : y1_ed = 4699107.911, 4699107.911
+INFO : y2_er = 5370951.974, 5370962.369
+INFO : *
+INFO : i=2970, charging: pre_soc= 6.789 < next_soc=6.826
+INFO : y1_ed = 4699107.911, 4699108.344
+INFO : y2_er = 5370962.369, 5371002.653
+INFO : *
+INFO : i=2974, charging: pre_soc= 7.227 < next_soc=7.293
+INFO : y1_ed = 4699108.344, 4699113.542
+INFO : y2_er = 5371217.5, 5371221.831
+INFO : *
+INFO : i=2975, charging: pre_soc= 7.293 < next_soc=7.294
+INFO : y1_ed = 4699113.542, 4699122.205
+INFO : y2_er = 5371221.831, 5371264.281
+INFO : *
+INFO : i=3001, charging: pre_soc= 21.799 < next_soc=21.848
+INFO : y1_ed = 4699122.205, 4699132.601
+INFO : y2_er = 5378080.026, 5378080.026
+INFO : *
+INFO : i=3003, discharging: pre_soc= 21.795 > next_soc=21.77
+INFO : y1_ed = 4699146.895, 4699146.895
+INFO : y2_er = 5378080.026, 5378092.154
+INFO : *
+INFO : i=3006, discharging: pre_soc= 21.823 > next_soc=21.77
+INFO : y1_ed = 4699146.895, 4699177.216
+INFO : y2_er = 5378115.545, 5378115.978
+INFO : *
+INFO : i=3010, discharging: pre_soc= 21.695 > next_soc=21.683
+INFO : y1_ed = 4699177.216, 4699177.216
+INFO : y2_er = 5378115.978, 5378133.304
+INFO : *
+INFO : i=3021, charging: pre_soc= 25.244 < next_soc=25.403
+INFO : y1_ed = 4699177.216, 4699223.131
+INFO : y2_er = 5379858.141, 5379914.018
+INFO : *
+INFO : i=3028, discharging: pre_soc= 24.39 > next_soc=24.191
+INFO : y1_ed = 4699667.984, 4699731.658
+INFO : y2_er = 5379914.018, 5379914.451
+INFO : *
+INFO : i=3030, discharging: pre_soc= 24.1 > next_soc=24.034
+INFO : y1_ed = 4699731.658, 4699801.83
+INFO : y2_er = 5379914.451, 5379914.884
+INFO : *
+INFO : i=3032, discharging: pre_soc= 23.825 > next_soc=23.643
+INFO : y1_ed = 4699880.232, 4699940.008
+INFO : y2_er = 5379914.884, 5379915.318
+INFO : *
+INFO : i=3035, discharging: pre_soc= 23.408 > next_soc=23.178
+INFO : y1_ed = 4700044.399, 4700150.089
+INFO : y2_er = 5379915.318, 5379915.751
+INFO : *
+INFO : i=3060, charging: pre_soc= 12.077 < next_soc=12.604
+INFO : y1_ed = 4704719.909, 4704777.519
+INFO : y2_er = 5379991.553, 5380245.817
+INFO : *
+INFO : i=3063, discharging: pre_soc= 12.32 > next_soc=12.3
+INFO : y1_ed = 4704893.606, 4704893.606
+INFO : y2_er = 5380245.817, 5380246.25
+INFO : *
+INFO : i=3067, charging: pre_soc= 15.407 < next_soc=16.017
+INFO : y1_ed = 4704893.606, 4704894.472
+INFO : y2_er = 5381938.167, 5381964.589
+INFO : *
+INFO : i=3072, charging: pre_soc= 15.875 < next_soc=16.107
+INFO : y1_ed = 4704953.381, 4704962.045
+INFO : y2_er = 5381964.589, 5382208.024
+INFO : *
+INFO : i=3073, charging: pre_soc= 16.107 < next_soc=16.11
+INFO : y1_ed = 4704962.045, 4705118.415
+INFO : y2_er = 5382208.024, 5382208.457
+INFO : *
+INFO : i=3076, discharging: pre_soc= 15.157 > next_soc=14.847
+INFO : y1_ed = 4705547.241, 4705569.766
+INFO : y2_er = 5382208.457, 5382221.452
+INFO : *
+INFO : i=3086, discharging: pre_soc= 12.658 > next_soc=12.25
+INFO : y1_ed = 4706569.062, 4706569.495
+INFO : y2_er = 5382221.452, 5382221.885
+INFO : *
+INFO : i=3092, charging: pre_soc= 14.619 < next_soc=14.876
+INFO : y1_ed = 4706569.495, 4706738.427
+INFO : y2_er = 5383458.119, 5383500.569
+INFO : *
+INFO : i=3093, discharging: pre_soc= 14.876 > next_soc=14.357
+INFO : y1_ed = 4706738.427, 4706869.674
+INFO : y2_er = 5383500.569, 5383506.633
+INFO : *
+INFO : i=3094, discharging: pre_soc= 14.357 > next_soc=14.293
+INFO : y1_ed = 4706869.674, 4706869.674
+INFO : y2_er = 5383506.633, 5383533.922
+INFO : *
+INFO : i=3099, charging: pre_soc= 17.199 < next_soc=18.438
+INFO : y1_ed = 4706869.674, 4706870.107
+INFO : y2_er = 5385135.741, 5385607.883
+INFO : *
+INFO : i=3102, discharging: pre_soc= 18.785 > next_soc=18.775
+INFO : y1_ed = 4706870.107, 4706870.107
+INFO : y2_er = 5385607.883, 5385608.317
+INFO : *
+INFO : i=3228, discharging: pre_soc= 28.718 > next_soc=28.311
+INFO : y1_ed = 4731885.43, 4731975.527
+INFO : y2_er = 5418773.512, 5418773.946
+INFO : *
+INFO : i=3229, discharging: pre_soc= 28.311 > next_soc=28.15
+INFO : y1_ed = 4731975.527, 4732039.634
+INFO : y2_er = 5418773.946, 5418780.876
+INFO : *
+INFO : i=3232, discharging: pre_soc= 27.984 > next_soc=27.976
+INFO : y1_ed = 4732076.886, 4732083.816
+INFO : y2_er = 5418780.876, 5418781.309
+INFO : *
+INFO : i=3238, discharging: pre_soc= 27.819 > next_soc=27.776
+INFO : y1_ed = 4732115.437, 4732150.089
+INFO : y2_er = 5418781.309, 5418781.742
+INFO : *
+INFO : i=3239, discharging: pre_soc= 27.776 > next_soc=27.691
+INFO : y1_ed = 4732150.089, 4732169.581
+INFO : y2_er = 5418781.742, 5418789.972
+INFO : *
+INFO : i=3240, discharging: pre_soc= 27.691 > next_soc=27.687
+INFO : y1_ed = 4732169.581, 4732169.581
+INFO : y2_er = 5418789.972, 5418827.224
+INFO : *
+INFO : i=3260, charging: pre_soc= 29.164 < next_soc=29.173
+INFO : y1_ed = 4732169.581, 4732170.015
+INFO : y2_er = 5419558.828, 5419558.828
+INFO : *
+INFO : i=3314, charging: pre_soc= 58.807 < next_soc=59.483
+INFO : y1_ed = 4732170.015, 4732170.448
+INFO : y2_er = 5434641.832, 5434693.378
+INFO : *
+INFO : i=3315, discharging: pre_soc= 59.483 > next_soc=59.472
+INFO : y1_ed = 4732170.448, 4732170.448
+INFO : y2_er = 5434693.378, 5434699.875
+INFO : *
+INFO : i=3317, discharging: pre_soc= 59.443 > next_soc=59.384
+INFO : y1_ed = 4732188.207, 4732230.657
+INFO : y2_er = 5434699.875, 5434700.309
+INFO : *
+INFO : i=3344, discharging: pre_soc= 30.737 > next_soc=30.709
+INFO : y1_ed = 4744086.632, 4744086.632
+INFO : y2_er = 5434700.309, 5434727.598
+INFO : *
+INFO : i=3348, charging: pre_soc= 32.219 < next_soc=32.421
+INFO : y1_ed = 4744086.632, 4744087.498
+INFO : y2_er = 5435512.914, 5435515.946
+INFO : *
+INFO : i=3351, charging: pre_soc= 33.187 < next_soc=33.395
+INFO : y1_ed = 4744087.498, 4744281.553
+INFO : y2_er = 5436014.944, 5436067.356
+INFO : *
+INFO : i=3354, discharging: pre_soc= 32.538 > next_soc=32.447
+INFO : y1_ed = 4744532.352, 4744568.737
+INFO : y2_er = 5436067.356, 5436076.886
+INFO : *
+INFO : i=3355, discharging: pre_soc= 32.447 > next_soc=32.446
+INFO : y1_ed = 4744568.737, 4744568.737
+INFO : y2_er = 5436076.886, 5436118.902
+INFO : *
+INFO : i=3459, charging: pre_soc= 93.838 < next_soc=93.882
+INFO : y1_ed = 4744570.469, 4744595.159
+INFO : y2_er = 5465296.876, 5465296.876
+INFO : *
+INFO : i=3515, discharging: pre_soc= 0.686 > next_soc=0.359
+INFO : y1_ed = 4783276.626, 4783303.482
+INFO : y2_er = 5465296.876, 5465299.475
+INFO : *
+INFO : i=3516, discharging: pre_soc= 0.359 > next_soc=0.334
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465299.475, 5465305.972
+INFO : *
+INFO : i=3518, discharging: pre_soc= 0.334 > next_soc=0.326
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465312.036, 5465318.967
+INFO : *
+INFO : i=3519, discharging: pre_soc= 0.326 > next_soc=0.309
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465318.967, 5465325.031
+INFO : *
+INFO : i=3521, discharging: pre_soc= 0.309 > next_soc=0.309
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465331.529, 5465338.026
+INFO : *
+INFO : i=3522, discharging: pre_soc= 0.309 > next_soc=0.308
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465338.026, 5465344.09
+INFO : *
+INFO : i=3524, discharging: pre_soc= 0.308 > next_soc=0.308
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465350.154, 5465356.652
+INFO : *
+INFO : i=3532, discharging: pre_soc= 0.308 > next_soc=0.308
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465399.968, 5465406.032
+INFO : *
+INFO : i=3539, discharging: pre_soc= 0.309 > next_soc=0.301
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465443.283, 5465460.61
+INFO : *
+INFO : i=3540, discharging: pre_soc= 0.301 > next_soc=0.289
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5465460.61, 5465543.343
+INFO : *
+INFO : i=3556, discharging: pre_soc= 0.35 > next_soc=0.347
+INFO : y1_ed = 4783303.482, 4783303.482
+INFO : y2_er = 5466568.195, 5466585.955
+INFO : *
+INFO : i=3606, charging: pre_soc= 34.577 < next_soc=34.734
+INFO : y1_ed = 4783303.482, 4783319.942
+INFO : y2_er = 5481482.701, 5481482.701
+INFO : *
+INFO : i=3628, discharging: pre_soc= 26.215 > next_soc=26.192
+INFO : y1_ed = 4786889.599, 4786889.599
+INFO : y2_er = 5481482.701, 5481497.428
+INFO : *
+INFO : i=3636, discharging: pre_soc= 28.946 > next_soc=28.809
+INFO : y1_ed = 4786889.599, 4787240.457
+INFO : y2_er = 5482863.176, 5482867.941
+INFO : *
+INFO : i=3639, discharging: pre_soc= 26.524 > next_soc=26.057
+INFO : y1_ed = 4788129.731, 4788194.271
+INFO : y2_er = 5482867.941, 5482908.658
+INFO : *
+INFO : i=3684, charging: pre_soc= 61.041 < next_soc=61.625
+INFO : y1_ed = 4788194.271, 4788194.705
+INFO : y2_er = 5499292.436, 5499390.763
+INFO : *
+INFO : i=3737, discharging: pre_soc= 100.673 > next_soc=100.662
+INFO : y1_ed = 4788194.705, 4788194.705
+INFO : y2_er = 5517943.365, 5517954.627
+INFO : *
+INFO : i=3738, discharging: pre_soc= 100.662 > next_soc=100.498
+INFO : y1_ed = 4788194.705, 4788194.705
+INFO : y2_er = 5517954.627, 5517957.659
+INFO : *
+INFO : i=3742, discharging: pre_soc= 99.996 > next_soc=99.895
+INFO : y1_ed = 4788194.705, 4788194.705
+INFO : y2_er = 5517957.659, 5517958.092
+INFO : *
+INFO : i=3942, discharging: pre_soc= 97.178 > next_soc=97.03
+INFO : y1_ed = 4788196.87, 4788197.737
+INFO : y2_er = 5517958.958, 5517959.391
+INFO : *
+INFO : i=3948, discharging: pre_soc= 95.935 > next_soc=95.927
+INFO : y1_ed = 4788197.737, 4788197.737
+INFO : y2_er = 5517959.391, 5517959.825
+INFO : *
+INFO : i=3971, discharging: pre_soc= 95.525 > next_soc=95.497
+INFO : y1_ed = 4788197.737, 4788197.737
+INFO : y2_er = 5517959.825, 5517960.258
+INFO : *
+INFO : i=3983, discharging: pre_soc= 95.312 > next_soc=95.268
+INFO : y1_ed = 4788198.17, 4788198.17
+INFO : y2_er = 5517960.258, 5517970.22
+INFO : *
+INFO : i=4020, discharging: pre_soc= 95.231 > next_soc=95.219
+INFO : y1_ed = 4789011.208, 4789011.208
+INFO : y2_er = 5519042.287, 5519042.72
+INFO : *
+INFO : i=4031, discharging: pre_soc= 95.019 > next_soc=94.987
+INFO : y1_ed = 4789013.374, 4789013.374
+INFO : y2_er = 5519042.72, 5519059.613
+INFO : *
+INFO : i=4094, discharging: pre_soc= 2.491 > next_soc=2.394
+INFO : y1_ed = 4828529.536, 4828569.82
+INFO : y2_er = 5519696.789, 5519697.222
+INFO : *
+INFO : i=4096, discharging: pre_soc= 2.19 > next_soc=2.081
+INFO : y1_ed = 4828658.617, 4828675.943
+INFO : y2_er = 5519697.222, 5519698.955
+INFO : *
+INFO : i=4097, discharging: pre_soc= 2.081 > next_soc=2.022
+INFO : y1_ed = 4828675.943, 4828687.639
+INFO : y2_er = 5519698.955, 5519728.41
+INFO : *
+INFO : i=4098, charging: pre_soc= 2.022 < next_soc=2.058
+INFO : y1_ed = 4828687.639, 4828736.152
+INFO : y2_er = 5519728.41, 5519759.164
+INFO : *
+INFO : i=4100, discharging: pre_soc= 1.878 > next_soc=1.731
+INFO : y1_ed = 4828807.624, 4828849.207
+INFO : y2_er = 5519759.164, 5519759.597
+INFO : *
+INFO : i=4101, discharging: pre_soc= 1.731 > next_soc=1.678
+INFO : y1_ed = 4828849.207, 4828857.437
+INFO : y2_er = 5519759.597, 5519760.03
+INFO : *
+INFO : i=4102, discharging: pre_soc= 1.678 > next_soc=1.639
+INFO : y1_ed = 4828857.437, 4828861.335
+INFO : y2_er = 5519760.03, 5519762.196
+INFO : *
+INFO : i=4103, discharging: pre_soc= 1.639 > next_soc=1.617
+INFO : y1_ed = 4828861.335, 4828864.8
+INFO : y2_er = 5519762.196, 5519786.02
+INFO : *
+INFO : i=4106, discharging: pre_soc= 1.64 > next_soc=1.611
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519795.982, 5519796.849
+INFO : *
+INFO : i=4107, discharging: pre_soc= 1.611 > next_soc=1.515
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519796.849, 5519797.282
+INFO : *
+INFO : i=4109, discharging: pre_soc= 1.396 > next_soc=1.279
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519797.282, 5519797.715
+INFO : *
+INFO : i=4110, discharging: pre_soc= 1.279 > next_soc=1.178
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519797.715, 5519798.148
+INFO : *
+INFO : i=4111, discharging: pre_soc= 1.178 > next_soc=1.098
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519798.148, 5519798.581
+INFO : *
+INFO : i=4112, discharging: pre_soc= 1.098 > next_soc=1.037
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519798.581, 5519799.015
+INFO : *
+INFO : i=4114, discharging: pre_soc= 0.983 > next_soc=0.943
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519799.015, 5519799.448
+INFO : *
+INFO : i=4115, discharging: pre_soc= 0.943 > next_soc=0.905
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519799.448, 5519799.881
+INFO : *
+INFO : i=4116, discharging: pre_soc= 0.905 > next_soc=0.884
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519799.881, 5519800.314
+INFO : *
+INFO : i=4117, discharging: pre_soc= 0.884 > next_soc=0.861
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519800.314, 5519800.747
+INFO : *
+INFO : i=4118, discharging: pre_soc= 0.861 > next_soc=0.845
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519800.747, 5519801.18
+INFO : *
+INFO : i=4119, discharging: pre_soc= 0.845 > next_soc=0.836
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519801.18, 5519802.047
+INFO : *
+INFO : i=4120, discharging: pre_soc= 0.836 > next_soc=0.821
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519802.047, 5519802.48
+INFO : *
+INFO : i=4121, discharging: pre_soc= 0.821 > next_soc=0.811
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519802.48, 5519802.913
+INFO : *
+INFO : i=4122, discharging: pre_soc= 0.811 > next_soc=0.797
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519802.913, 5519803.346
+INFO : *
+INFO : i=4123, discharging: pre_soc= 0.797 > next_soc=0.786
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519803.346, 5519803.779
+INFO : *
+INFO : i=4124, discharging: pre_soc= 0.786 > next_soc=0.776
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519803.779, 5519804.646
+INFO : *
+INFO : i=4125, discharging: pre_soc= 0.776 > next_soc=0.761
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519804.646, 5519805.079
+INFO : *
+INFO : i=4126, discharging: pre_soc= 0.761 > next_soc=0.753
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519805.079, 5519805.512
+INFO : *
+INFO : i=4127, discharging: pre_soc= 0.753 > next_soc=0.736
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519805.512, 5519806.378
+INFO : *
+INFO : i=4128, discharging: pre_soc= 0.736 > next_soc=0.727
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519806.378, 5519807.245
+INFO : *
+INFO : i=4129, discharging: pre_soc= 0.727 > next_soc=0.711
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519807.245, 5519808.111
+INFO : *
+INFO : i=4131, discharging: pre_soc= 0.711 > next_soc=0.69
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519808.977, 5519809.844
+INFO : *
+INFO : i=4132, discharging: pre_soc= 0.69 > next_soc=0.686
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519809.844, 5519810.71
+INFO : *
+INFO : i=4133, discharging: pre_soc= 0.686 > next_soc=0.67
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519810.71, 5519811.576
+INFO : *
+INFO : i=4134, discharging: pre_soc= 0.67 > next_soc=0.661
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519811.576, 5519812.876
+INFO : *
+INFO : i=4135, discharging: pre_soc= 0.661 > next_soc=0.642
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519812.876, 5519813.742
+INFO : *
+INFO : i=4136, discharging: pre_soc= 0.642 > next_soc=0.636
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519813.742, 5519814.608
+INFO : *
+INFO : i=4137, discharging: pre_soc= 0.636 > next_soc=0.614
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519814.608, 5519815.908
+INFO : *
+INFO : i=4138, discharging: pre_soc= 0.614 > next_soc=0.609
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519815.908, 5519816.774
+INFO : *
+INFO : i=4139, discharging: pre_soc= 0.609 > next_soc=0.586
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519816.774, 5519818.074
+INFO : *
+INFO : i=4140, discharging: pre_soc= 0.586 > next_soc=0.579
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519818.074, 5519819.373
+INFO : *
+INFO : i=4141, discharging: pre_soc= 0.579 > next_soc=0.561
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519819.373, 5519820.672
+INFO : *
+INFO : i=4142, discharging: pre_soc= 0.561 > next_soc=0.557
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519820.672, 5519822.405
+INFO : *
+INFO : i=4143, discharging: pre_soc= 0.557 > next_soc=0.536
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519822.405, 5519824.138
+INFO : *
+INFO : i=4144, discharging: pre_soc= 0.536 > next_soc=0.532
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519824.138, 5519825.87
+INFO : *
+INFO : i=4145, discharging: pre_soc= 0.532 > next_soc=0.511
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519825.87, 5519828.036
+INFO : *
+INFO : i=4146, discharging: pre_soc= 0.511 > next_soc=0.496
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519828.036, 5519829.769
+INFO : *
+INFO : i=4147, discharging: pre_soc= 0.496 > next_soc=0.486
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519829.769, 5519831.935
+INFO : *
+INFO : i=4148, discharging: pre_soc= 0.486 > next_soc=0.467
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519831.935, 5519834.1
+INFO : *
+INFO : i=4149, discharging: pre_soc= 0.467 > next_soc=0.461
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519834.1, 5519835.833
+INFO : *
+INFO : i=4150, discharging: pre_soc= 0.461 > next_soc=0.438
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519835.833, 5519838.865
+INFO : *
+INFO : i=4151, discharging: pre_soc= 0.438 > next_soc=0.435
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519838.865, 5519841.464
+INFO : *
+INFO : i=4152, discharging: pre_soc= 0.435 > next_soc=0.411
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519841.464, 5519844.063
+INFO : *
+INFO : i=4153, discharging: pre_soc= 0.411 > next_soc=0.391
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519844.063, 5519847.095
+INFO : *
+INFO : i=4154, discharging: pre_soc= 0.391 > next_soc=0.385
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519847.095, 5519850.127
+INFO : *
+INFO : i=4155, discharging: pre_soc= 0.385 > next_soc=0.361
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519850.127, 5519853.159
+INFO : *
+INFO : i=4156, discharging: pre_soc= 0.361 > next_soc=0.349
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519853.159, 5519856.625
+INFO : *
+INFO : i=4157, discharging: pre_soc= 0.349 > next_soc=0.336
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519856.625, 5519859.657
+INFO : *
+INFO : i=4158, discharging: pre_soc= 0.336 > next_soc=0.311
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519859.657, 5519863.555
+INFO : *
+INFO : i=4159, discharging: pre_soc= 0.311 > next_soc=0.304
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519863.555, 5519867.454
+INFO : *
+INFO : i=4160, discharging: pre_soc= 0.304 > next_soc=0.286
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519867.454, 5519870.919
+INFO : *
+INFO : i=4161, discharging: pre_soc= 0.286 > next_soc=0.269
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519870.919, 5519875.25
+INFO : *
+INFO : i=4162, discharging: pre_soc= 0.269 > next_soc=0.261
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519875.25, 5519880.015
+INFO : *
+INFO : i=4163, discharging: pre_soc= 0.261 > next_soc=0.241
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519880.015, 5519890.844
+INFO : *
+INFO : i=4164, discharging: pre_soc= 0.241 > next_soc=0.231
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5519890.844, 5519966.647
+INFO : *
+INFO : i=4177, discharging: pre_soc= 0.536 > next_soc=0.536
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520956.847, 5520960.312
+INFO : *
+INFO : i=4181, discharging: pre_soc= 0.536 > next_soc=0.518
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520970.275, 5520973.74
+INFO : *
+INFO : i=4182, discharging: pre_soc= 0.518 > next_soc=0.511
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520973.74, 5520977.205
+INFO : *
+INFO : i=4184, discharging: pre_soc= 0.511 > next_soc=0.506
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520980.67, 5520984.136
+INFO : *
+INFO : i=4185, discharging: pre_soc= 0.506 > next_soc=0.487
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520984.136, 5520987.601
+INFO : *
+INFO : i=4187, discharging: pre_soc= 0.487 > next_soc=0.483
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520990.633, 5520994.098
+INFO : *
+INFO : i=4188, discharging: pre_soc= 0.483 > next_soc=0.46
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520994.098, 5520997.997
+INFO : *
+INFO : i=4189, discharging: pre_soc= 0.46 > next_soc=0.458
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5520997.997, 5521001.895
+INFO : *
+INFO : i=4190, discharging: pre_soc= 0.458 > next_soc=0.452
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521001.895, 5521005.36
+INFO : *
+INFO : i=4191, discharging: pre_soc= 0.452 > next_soc=0.434
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521005.36, 5521009.259
+INFO : *
+INFO : i=4195, discharging: pre_soc= 0.434 > next_soc=0.411
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521021.82, 5521026.152
+INFO : *
+INFO : i=4196, discharging: pre_soc= 0.411 > next_soc=0.409
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521026.152, 5521030.05
+INFO : *
+INFO : i=4198, discharging: pre_soc= 0.409 > next_soc=0.386
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521034.815, 5521039.58
+INFO : *
+INFO : i=4199, discharging: pre_soc= 0.386 > next_soc=0.384
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521039.58, 5521044.345
+INFO : *
+INFO : i=4203, discharging: pre_soc= 0.384 > next_soc=0.383
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521060.371, 5521065.136
+INFO : *
+INFO : i=4204, discharging: pre_soc= 0.383 > next_soc=0.361
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521065.136, 5521069.901
+INFO : *
+INFO : i=4209, discharging: pre_soc= 0.367 > next_soc=0.366
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521091.126, 5521096.324
+INFO : *
+INFO : i=4210, discharging: pre_soc= 0.366 > next_soc=0.341
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521096.324, 5521101.521
+INFO : *
+INFO : i=4219, discharging: pre_soc= 0.341 > next_soc=0.317
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521146.57, 5521152.634
+INFO : *
+INFO : i=4220, discharging: pre_soc= 0.317 > next_soc=0.314
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521152.634, 5521158.265
+INFO : *
+INFO : i=4221, discharging: pre_soc= 0.314 > next_soc=0.313
+INFO : y1_ed = 4828864.8, 4828864.8
+INFO : y2_er = 5521158.265, 5521164.329
+INFO : *
+INFO : i=4312, charging: pre_soc= 100.66 < next_soc=101.126
+INFO : y1_ed = 4828864.8, 4828865.234
+INFO : y2_er = 5567860.956, 5567863.122
+INFO : *
+INFO : i=4332, discharging: pre_soc= 76.352 > next_soc=76.191
+INFO : y1_ed = 4838787.157, 4838787.157
+INFO : y2_er = 5567863.122, 5567863.555
+INFO : *
+INFO : i=4391, discharging: pre_soc= 14.164 > next_soc=14.143
+INFO : y1_ed = 4864641.941, 4864641.941
+INFO : y2_er = 5567863.555, 5567895.609
+INFO : *
+INFO : i=4425, charging: pre_soc= 27.061 < next_soc=27.14
+INFO : y1_ed = 4864641.941, 4864642.374
+INFO : y2_er = 5574073.312, 5574092.804
+INFO : *
+INFO : i=4430, discharging: pre_soc= 27.18 > next_soc=27.156
+INFO : y1_ed = 4864642.374, 4864642.374
+INFO : y2_er = 5574120.526, 5574144.783
+INFO : *
+INFO : i=4440, charging: pre_soc= 28.22 < next_soc=28.247
+INFO : y1_ed = 4864642.374, 4864686.989
+INFO : y2_er = 5574703.557, 5574706.589
+INFO : *
+INFO : i=4451, charging: pre_soc= 28.0 < next_soc=28.018
+INFO : y1_ed = 4864760.193, 4864772.321
+INFO : y2_er = 5574706.589, 5574728.68
+INFO : *
+INFO : i=4462, discharging: pre_soc= 28.562 > next_soc=28.543
+INFO : y1_ed = 4864772.321, 4864772.321
+INFO : y2_er = 5575030.592, 5575052.683
+INFO : *
+INFO : i=4463, charging: pre_soc= 28.543 < next_soc=28.577
+INFO : y1_ed = 4864772.321, 4864795.712
+INFO : y2_er = 5575052.683, 5575079.972
+INFO : *
+INFO : i=4471, discharging: pre_soc= 27.431 > next_soc=27.288
+INFO : y1_ed = 4865256.592, 4865397.802
+INFO : y2_er = 5575079.972, 5575080.405
+INFO : *
+INFO : i=4473, discharging: pre_soc= 26.793 > next_soc=26.324
+INFO : y1_ed = 4865626.509, 4865803.671
+INFO : y2_er = 5575080.405, 5575080.838
+INFO : *
+INFO : i=4505, discharging: pre_soc= 5.608 > next_soc=5.381
+INFO : y1_ed = 4874479.398, 4874530.077
+INFO : y2_er = 5575080.838, 5575081.271
+INFO : *
+INFO : i=4510, discharging: pre_soc= 4.697 > next_soc=4.605
+INFO : y1_ed = 4874828.09, 4874830.256
+INFO : y2_er = 5575081.271, 5575081.704
+INFO : *
+INFO : i=4511, discharging: pre_soc= 4.605 > next_soc=4.599
+INFO : y1_ed = 4874830.256, 4874832.422
+INFO : y2_er = 5575081.704, 5575101.197
+INFO : *
+INFO : i=4670, discharging: pre_soc= 27.245 > next_soc=27.003
+INFO : y1_ed = 4903598.029, 4903644.377
+INFO : y2_er = 5618794.737, 5618795.17
+INFO : *
+INFO : i=4682, discharging: pre_soc= 25.801 > next_soc=25.51
+INFO : y1_ed = 4904154.638, 4904253.831
+INFO : y2_er = 5618795.17, 5618795.603
+INFO : *
+INFO : i=4687, discharging: pre_soc= 25.031 > next_soc=24.992
+INFO : y1_ed = 4904402.404, 4904411.5
+INFO : y2_er = 5618795.603, 5618796.037
+INFO : *
+INFO : i=4751, charging: pre_soc= 34.594 < next_soc=34.715
+INFO : y1_ed = 4904411.5, 4904443.121
+INFO : y2_er = 5623606.692, 5623669.067
+INFO : *
+INFO : i=4756, discharging: pre_soc= 33.98 > next_soc=33.802
+INFO : y1_ed = 4904788.781, 4904855.921
+INFO : y2_er = 5623669.067, 5623669.5
+INFO : *
+INFO : i=4764, charging: pre_soc= 39.826 < next_soc=40.444
+INFO : y1_ed = 4904957.28, 4905118.848
+INFO : y2_er = 5626898.262, 5627053.766
+INFO : *
+INFO : i=4768, discharging: pre_soc= 38.428 > next_soc=37.8
+INFO : y1_ed = 4906030.646, 4906230.332
+INFO : y2_er = 5627053.766, 5627054.199
+INFO : *
+INFO : i=4770, discharging: pre_soc= 37.404 > next_soc=37.001
+INFO : y1_ed = 4906418.756, 4906580.757
+INFO : y2_er = 5627054.199, 5627054.632
+INFO : *
+INFO : i=4771, discharging: pre_soc= 37.001 > next_soc=36.657
+INFO : y1_ed = 4906580.757, 4906721.1
+INFO : y2_er = 5627054.632, 5627055.065
+INFO : *
+INFO : i=4773, discharging: pre_soc= 36.225 > next_soc=35.939
+INFO : y1_ed = 4906900.861, 4907022.578
+INFO : y2_er = 5627055.065, 5627055.498
+INFO : *
+INFO : i=4775, discharging: pre_soc= 35.574 > next_soc=35.204
+INFO : y1_ed = 4907173.317, 4907355.677
+INFO : y2_er = 5627055.498, 5627055.932
+INFO : *
+INFO : i=4784, discharging: pre_soc= 29.63 > next_soc=28.962
+INFO : y1_ed = 4909724.186, 4909952.461
+INFO : y2_er = 5627055.932, 5627056.365
+INFO : *
+INFO : i=4787, charging: pre_soc= 30.116 < next_soc=31.153
+INFO : y1_ed = 4909952.461, 4910045.157
+INFO : y2_er = 5627972.494, 5628280.47
+INFO : *
+INFO : i=4796, discharging: pre_soc= 27.884 > next_soc=27.873
+INFO : y1_ed = 4911457.686, 4911457.686
+INFO : y2_er = 5628280.47, 5628486.653
+INFO : *
+INFO : i=4800, charging: pre_soc= 30.673 < next_soc=31.133
+INFO : y1_ed = 4911457.686, 4911597.163
+INFO : y2_er = 5629867.129, 5629949.429
+INFO : *
+INFO : i=4801, discharging: pre_soc= 31.133 > next_soc=30.856
+INFO : y1_ed = 4911597.163, 4911658.671
+INFO : y2_er = 5629949.429, 5629965.456
+INFO : *
+INFO : i=4806, charging: pre_soc= 32.064 < next_soc=32.377
+INFO : y1_ed = 4911658.671, 4911694.19
+INFO : y2_er = 5630655.044, 5630720.884
+INFO : *
+INFO : i=4810, discharging: pre_soc= 31.844 > next_soc=31.786
+INFO : y1_ed = 4911904.272, 4911939.358
+INFO : y2_er = 5630720.884, 5630828.307
+INFO : *
+INFO : i=4824, charging: pre_soc= 45.65 < next_soc=46.103
+INFO : y1_ed = 4911939.358, 4912018.626
+INFO : y2_er = 5637549.191, 5637591.207
+INFO : *
+INFO : i=4825, discharging: pre_soc= 46.103 > next_soc=46.064
+INFO : y1_ed = 4912018.626, 4912099.193
+INFO : y2_er = 5637591.207, 5637632.357
+INFO : *
+INFO : i=4826, discharging: pre_soc= 46.064 > next_soc=45.863
+INFO : y1_ed = 4912099.193, 4912149.006
+INFO : y2_er = 5637632.357, 5637681.737
+INFO : *
+INFO : i=4828, discharging: pre_soc= 45.778 > next_soc=45.469
+INFO : y1_ed = 4912257.729, 4912373.382
+INFO : y2_er = 5637681.737, 5637684.336
+INFO : *
+INFO : i=4833, charging: pre_soc= 47.727 < next_soc=48.35
+INFO : y1_ed = 4912373.382, 4912414.099
+INFO : y2_er = 5638953.49, 5639169.636
+INFO : *
+INFO : i=4834, discharging: pre_soc= 48.35 > next_soc=48.273
+INFO : y1_ed = 4912414.099, 4912541.015
+INFO : y2_er = 5639169.636, 5639362.391
+INFO : *
+INFO : i=4873, charging: pre_soc= 81.109 < next_soc=81.843
+INFO : y1_ed = 4912541.015, 4912618.117
+INFO : y2_er = 5655052.683, 5655246.738
+INFO : *
+INFO : i=4876, discharging: pre_soc= 78.855 > next_soc=78.492
+INFO : y1_ed = 4914123.342, 4914125.074
+INFO : y2_er = 5655246.738, 5655583.302
+INFO : *
+INFO : i=4882, charging: pre_soc= 82.562 < next_soc=82.884
+INFO : y1_ed = 4914125.074, 4914125.941
+INFO : y2_er = 5657448.048, 5657592.29
+INFO : *
+INFO : i=4884, charging: pre_soc= 83.623 < next_soc=83.762
+INFO : y1_ed = 4914125.941, 4914354.215
+INFO : y2_er = 5657984.298, 5657994.261
+INFO : *
+INFO : i=4896, discharging: pre_soc= 73.464 > next_soc=73.035
+INFO : y1_ed = 4918768.531, 4918800.585
+INFO : y2_er = 5657994.261, 5658093.887
+INFO : *
+INFO : i=4903, charging: pre_soc= 75.299 < next_soc=75.648
+INFO : y1_ed = 4918800.585, 4918802.751
+INFO : y2_er = 5659177.216, 5659311.928
+INFO : *
+INFO : i=4905, discharging: pre_soc= 75.516 > next_soc=75.264
+INFO : y1_ed = 4919027.56, 4919045.319
+INFO : y2_er = 5659311.928, 5659415.886
+INFO : *
+INFO : i=4907, charging: pre_soc= 75.592 < next_soc=75.962
+INFO : y1_ed = 4919045.319, 4919078.239
+INFO : y2_er = 5659596.513, 5659717.797
+INFO : *
+INFO : i=4944, discharging: pre_soc= 9.689 > next_soc=9.17
+INFO : y1_ed = 4947043.37, 4947088.852
+INFO : y2_er = 5659717.797, 5659810.493
+INFO : *
+INFO : i=4966, discharging: pre_soc= 12.785 > next_soc=12.731
+INFO : y1_ed = 4947236.992, 4947236.992
+INFO : y2_er = 5661746.278, 5661746.711
+INFO : *
+INFO : i=4969, discharging: pre_soc= 12.588 > next_soc=12.529
+INFO : y1_ed = 4947236.992, 4947236.992
+INFO : y2_er = 5661746.711, 5661748.443
+INFO : *
+INFO : i=4970, discharging: pre_soc= 12.529 > next_soc=12.521
+INFO : y1_ed = 4947236.992, 4947236.992
+INFO : y2_er = 5661748.443, 5661773.567
+INFO : *
+INFO : i=4972, charging: pre_soc= 12.558 < next_soc=12.58
+INFO : y1_ed = 4947236.992, 4947249.12
+INFO : y2_er = 5661790.027, 5661798.69
+INFO : *
+INFO : i=4973, discharging: pre_soc= 12.58 > next_soc=12.559
+INFO : y1_ed = 4947249.12, 4947249.12
+INFO : y2_er = 5661798.69, 5661802.588
+INFO : *
+INFO : i=4977, discharging: pre_soc= 12.602 > next_soc=12.602
+INFO : y1_ed = 4947249.12, 4947249.12
+INFO : y2_er = 5661845.038, 5661854.567
+INFO : *
+INFO : i=4980, discharging: pre_soc= 12.609 > next_soc=12.603
+INFO : y1_ed = 4947249.12, 4947255.184
+INFO : y2_er = 5661865.829, 5661867.129
+INFO : *
+INFO : i=4981, discharging: pre_soc= 12.603 > next_soc=12.601
+INFO : y1_ed = 4947255.184, 4947255.184
+INFO : y2_er = 5661867.129, 5661904.813
+INFO : *
+INFO : i=5040, charging: pre_soc= 19.429 < next_soc=19.513
+INFO : y1_ed = 4947255.184, 4947337.051
+INFO : y2_er = 5665417.727, 5665445.016
+INFO : *
+INFO : i=5042, discharging: pre_soc= 19.331 > next_soc=19.123
+INFO : y1_ed = 4947405.923, 4947496.02
+INFO : y2_er = 5665445.016, 5665445.449
+INFO : *
+INFO : i=5046, charging: pre_soc= 18.862 < next_soc=18.979
+INFO : y1_ed = 4947554.93, 4947565.326
+INFO : y2_er = 5665445.449, 5665717.473
+INFO : *
+INFO : i=5052, charging: pre_soc= 24.918 < next_soc=25.189
+INFO : y1_ed = 4947565.326, 4947796.199
+INFO : y2_er = 5668544.697, 5668583.248
+INFO : *
+INFO : i=5058, discharging: pre_soc= 21.955 > next_soc=21.79
+INFO : y1_ed = 4949089.61, 4949158.049
+INFO : y2_er = 5668583.248, 5668583.681
+INFO : *
+INFO : i=5060, discharging: pre_soc= 21.45 > next_soc=20.974
+INFO : y1_ed = 4949303.157, 4949563.918
+INFO : y2_er = 5668583.681, 5668584.114
+INFO : *

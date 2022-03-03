@@ -1,14 +1,10 @@
 import pandas as pd
-from enum import Enum
-import nltk
 import logging
 import sys
-import torch
-import os
 
 DATASET_FPATH = "BESS_op_data.csv"
 FIGURE1_FPATH = "figure_dataset.png"
-FIGURE2_DETA_FPATH = "figure_deltas.png"
+FIGURE2_MAX_FPATH = "figure_localmaxima.png"
 
 # Invoked to write a message to a text logfile and also print it
 def init_logging(logfilename, loglevel=logging.INFO):
@@ -36,4 +32,5 @@ def get_data():
     y3_soc = df["SOC"].to_list()
 
     return y1_ed, y2_er, y3_soc
+
 

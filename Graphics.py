@@ -1,30 +1,9 @@
 import pandas as pd
+
+import Compute
 import Utilities
 import matplotlib.pyplot as plt
-
-
-
-# def fig_incr_decr():
-#     df = pd.read_csv(Utilities.DATASET_FPATH)
-#     fig = plt.figure(figsize=(8, 6))
-#
-#     ed_ls = df["ENERGY_DELIVERED"].to_list()
-#     x = list(range(len(ed_ls)-1))
-#     er_ls = df["ENERGY_RECEIVED"].to_list()
-#
-#     ed_diffs = [-ed_ls[i]+ ed_ls[i+1] for i in range(0,len(ed_ls)-1)]
-#     er_diffs = [-er_ls[i] + er_ls[i+1] for i in range(0, len(er_ls) - 1)]
-#
-#     fig = plt.figure(figsize=(8, 6))
-#     ax = plt.gca()
-#     ax.set_xlabel("time")
-#     ax.set_ylabel("kWh")
-#     plt.plot(x, ed_diffs, label="Δ Energy delivered", color="tab:green")
-#     plt.plot(x, er_diffs, label="Δ Energy received", color="darkred")
-#
-#     plt.savefig(Utilities.FIGURE2_DETA_FPATH, dpi=500)
-#     fig.show()
-
+from math import nan
 
 def fig_dataset():
 
@@ -54,3 +33,29 @@ def fig_dataset():
 
     plt.savefig(Utilities.FIGURE1_FPATH, dpi=500)
     fig.show()
+
+
+def fig_maxima():
+    _y1_ed, _y2_er, y3_soc = Utilities.get_data()
+    x = list(range(len(y3_soc)))
+
+    fig = plt.figure(figsize=(8, 6))
+    ax = plt.gca()
+    ax.set_xlabel("time")
+    ax.set_ylabel("%")
+
+    ax.plot(x, y3_soc, label="State Of Charge")
+
+    local_maxima_indices = Compute.get_local_maxima(k=50)
+    y_scatter = []
+    for i in range(len(y3_soc)):
+        if i in local_maxima_indices:
+            y_scatter.append(y3_soc[i])
+        else:
+            y_scatter.append(nan)
+    ax.scatter(x, y_scatter, label="Local maxima")
+    ax.legend()
+
+    plt.savefig(Utilities.FIGURE2_MAX_FPATH, dpi=500)
+    fig.show()
+
