@@ -35,7 +35,11 @@ def fig_dataset():
     fig.show()
 
 
-def fig_scatter_on_line(points_of_interest, label):
+def plot_l_extremes():
+    _ed, _er, soc_ls = Utilities.get_data()
+    x = list(range(len(soc_ls)))
+    lmax_indices, lmin_indices = Compute.get_local_extremes(soc_ls)
+
     _y1_ed, _y2_er, y3_soc = Utilities.get_data()
     x = list(range(len(y3_soc)))
 
@@ -48,28 +52,21 @@ def fig_scatter_on_line(points_of_interest, label):
 
     y_scatter = []
     for i in range(len(y3_soc)):
-        if i in points_of_interest:
+        if i in lmax_indices:
             y_scatter.append(y3_soc[i])
         else:
             y_scatter.append(nan)
-    ax.scatter(x, y_scatter, label=label)
+    plt.scatter(x, y_scatter, color='green')
+
+    y_scatter2 = []
+    for i in range(len(y3_soc)):
+        if i in lmin_indices:
+            y_scatter2.append(y3_soc[i])
+        else:
+            y_scatter2.append(nan)
+    plt.scatter(x, y_scatter2, color='peru')
     ax.legend()
 
-    plt.savefig("figure_" + label + ".png", dpi=500)
+    plt.savefig("figure_local_extremes.png", dpi=500)
     fig.show()
-
-
-def plot_trips():
-    _ed, _er, soc_ls = Utilities.get_data()
-    x = list(range(len(soc_ls)))
-    local_maxima_indices = Compute.get_local_maxima(soc_ls, k=50)
-    trips = Compute.get_recharge_points(soc_ls, local_maxima_indices)
-    rt_extremes = []
-    for trip in trips:
-        rt_extremes.append(trip[0])
-        rt_extremes.append(trip[1])
-
-    fig_scatter_on_line(rt_extremes, "extremes of partial trips")
-
-
 
