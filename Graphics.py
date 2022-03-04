@@ -36,13 +36,11 @@ def fig_dataset():
 
 
 def plot_l_extremes():
-    _ed, _er, soc_ls = Utilities.get_data()
-    x = list(range(len(soc_ls)))
-    lmax_indices, lmin_indices = Compute.get_local_extremes(soc_ls)
-    completed_trips, trip_endpoints = Compute.process_roundtrips_stack()
-
     _y1_ed, _y2_er, y3_soc = Utilities.get_data()
     x = list(range(len(y3_soc)))
+
+    lmax_indices, lmin_indices = Compute.get_local_extremes(y3_soc)
+    completed_trips, trip_endpoints = Compute.process_roundtrips_stack()
 
     fig = plt.figure(figsize=(8, 6))
     ax = plt.gca()
@@ -59,13 +57,13 @@ def plot_l_extremes():
             y_scatter.append(nan)
     plt.scatter(x, y_scatter, color='green')
 
-    # y_scatter2 = []
-    # for i in range(len(y3_soc)):
-    #     if i in lmin_indices:
-    #         y_scatter2.append(y3_soc[i])
-    #     else:
-    #         y_scatter2.append(nan)
-    # plt.scatter(x, y_scatter2, color='yellow')
+    y_scatter2 = []
+    for i in range(len(y3_soc)):
+        if i in lmin_indices:
+            y_scatter2.append(y3_soc[i])
+        else:
+            y_scatter2.append(nan)
+    plt.scatter(x, y_scatter2, color='yellow')
 
     y_scatter3 = []
     for i in range(len(y3_soc)):
@@ -80,3 +78,31 @@ def plot_l_extremes():
     plt.savefig("figure_local_extremes.png", dpi=500)
     fig.show()
 
+
+def plot_simple_trips():
+    _y1_ed, _y2_er, y3_soc = Utilities.get_data()
+    x = list(range(len(y3_soc)))
+
+    trips = Compute.get_simple_trips()
+
+    fig = plt.figure(figsize=(8, 6))
+    ax = plt.gca()
+    ax.set_xlabel("time")
+    ax.set_ylabel("%")
+
+    ax.plot(x, y3_soc, label="State Of Charge")
+
+    trips_extremes = [trip.start_idx for trip in trips]
+    y_scatter = []
+    for i in range(len(y3_soc)):
+        if i in trips_extremes:
+            y_scatter.append(y3_soc[i])
+        else:
+            y_scatter.append(nan)
+    plt.scatter(x, y_scatter, color='green')
+
+
+    ax.legend()
+    plt.grid()
+    plt.savefig("figure_simple_trips.png", dpi=500)
+    fig.show()

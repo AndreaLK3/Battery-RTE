@@ -1,5 +1,6 @@
 import pandas as pd
 import Utilities
+import Compute
 from math import isnan
 import logging
 
@@ -45,9 +46,15 @@ def check_assumptions():
     return a1_not_true_idx, a2_not_true_idx
 
 
-
-
-
-
 def exe():
-    df = pd.read_csv(Utilities.DATASET_FPATH)
+    Utilities.logging.info("rte.log")
+    trips = Compute.get_simple_trips()
+
+    rte_ls = []
+    for trip in trips:
+        trip_efficiency = trip.energy_delivered / trip.energy_received
+        rte_ls.append(trip_efficiency)
+
+    logging.info("Trips efficiency: " + str(rte_ls))
+    avg_eff = sum(rte_ls) / len(rte_ls)
+    logging.info("Average trip efficiency = " + str(avg_eff))

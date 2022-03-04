@@ -27,7 +27,7 @@ def get_local_extremes(soc_ls, k=30):
 
 
 def process_roundtrips_stack():
-    Utilities.init_logging("roundtrips.log")
+    Utilities.init_logging("roundtrips_oldstack.log")
     y1_ed, y2_er, y3_soc = Utilities.get_data()
     lmax_indices, lmin_indices = get_local_extremes(y3_soc)
     trip_endpoints = []   # for graphics
@@ -63,12 +63,42 @@ def process_roundtrips_stack():
     return completed_trips, trip_endpoints
 
 
+class Trip:
+    def __init__(self):
+        self.start_idx = 0
+        self.end_idx = 0
+        self.energy_delivered = 0
+        self.energy_received = 0
 
 
+def get_simple_trips(epsilon=1):
+    Utilities.init_logging("simple_trips.log")
+    y1_ed, y2_er, y3_soc = Utilities.get_data()
 
+    trips_ls = []
 
+    starting_idx = 0
+    starting_charge_state = y3_soc[0]
+    starting_ed = y1_ed[0]
+    starting_er = y2_er[0]
+    # stop_points = [0]
 
+    for i in range(1, len(y3_soc)):
+        current_charge_state = y3_soc[i]
+        current_ed = y1_ed[i]
+        current_er = y2_er[i]
+        if i > starting_idx+15 and (abs(current_charge_state-starting_charge_state) < epsilon):
+            logging.debug("current_charge_state = " + str(current_charge_state))
+            logging.debug("starting_charge_state = " + str(starting_charge_state))
+            trip = Trip()
+            trip.start_idx = starting_idx
+            trip.end_idx = i
+            trip.energy_delivered = current_ed - starting_ed
+            trip.energy_received = current_er - starting_er
+            trips_ls.append(trip)
+            # then, re-initialize for the next trip
+            starting_idx = i
+            starting_ed = current_ed
+            starting_er = current_er
 
-
-
-
+    return trips_ls[0:-1]  # exclude the last
