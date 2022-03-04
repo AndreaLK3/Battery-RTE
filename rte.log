@@ -1,0 +1,2 @@
+INFO : Average over 16 roundtrip segments = 86.33%
+INFO : Average over 16 roundtrip segments (weighted by each trip's \u0394 SOC) = 86.27%

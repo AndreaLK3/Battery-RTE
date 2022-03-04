@@ -11,6 +11,16 @@ class Trip:
         self.end_idx = 0
         self.energy_delivered = 0
         self.energy_received = 0
+        self.min_soc = 0
+        self.max_soc = 0
+
+    # minimum and maximum SOC during the trip are used to weigh its contribution to the average RTE
+    def set_max_soc(self, y3_soc):
+        self.max_soc = y3_soc[self.start_idx]
+
+    def set_min_soc(self, y3_soc):
+        trip_soc_values = [y3_soc[i] for i in range(self.start_idx, self.end_idx)]
+        self.min_soc = min(trip_soc_values)
 
 
 def get_local_max(soc_ls, k=20, min_value=60):
@@ -49,11 +59,11 @@ def conclude_trip(end_idx, trip, y1_ed, y2_er, y3_soc):
                     break
                 trip.start_idx = None  # if there is no way to obtain a valid trip (e.g. at the end of the SOC line)
 
-    # update the values of energy delivered and energy retrieved
+    # update the values of energy delivered, energy retrieved, and the SOC delta of the trip
     trip.energy_delivered = y1_ed[trip.end_idx] - y1_ed[trip.start_idx]
     trip.energy_received = y2_er[trip.end_idx] - y2_er[trip.start_idx]
-
-    return trip
+    trip.set_max_soc(y3_soc)
+    trip.set_min_soc(y3_soc)
 
 
 def process_roundtrips():
@@ -71,7 +81,8 @@ def process_roundtrips():
                 new_trip = Trip(i)
                 trips_ls.append(new_trip)
 
-    trips_ls = [t for t in trips_ls if t.start_idx is not None and t.end_idx is not None]
+    trips_ls = [t for t in trips_ls if t.start_idx is not None and t.end_idx is not None
+                and not(isnan(t.energy_received)) and not(isnan(t.energy_delivered))]  # exclude trip with missing values
 
     return trips_ls
 
