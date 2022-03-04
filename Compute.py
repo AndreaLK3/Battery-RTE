@@ -1,104 +1,78 @@
 import logging
-
 import Utilities
 from Utilities import init_logging, get_data
 from math import nan, isnan
 import numpy as np
 
 
-def get_local_extremes(soc_ls, k=30):
-    # Param. k: time slots of monotonic increase of the SOC followed by monotonic decrease
-
-    local_maxima_indices = [0]  # the start is included
-    local_minima_indices = []
-    # l1 = [5, 4, 3, 2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 2, 3, 4, 5, 6, 5, 4, 3]  # debug
-    # y3_soc = l1
-    for i in range(k,len(soc_ls)-k):
-        prev = soc_ls[i-k:i]
-        next = soc_ls[i+1:i+k+1]
-        if all([soc_ls[i] > soc for soc in prev]):
-            if all([soc_ls[i] > soc for soc in next]):
-                local_maxima_indices.append(i)
-        if all([soc_ls[i] < soc for soc in prev]):
-            if all([soc_ls[i] < soc for soc in next]):
-                local_minima_indices.append(i)
-
-    return local_maxima_indices, local_minima_indices
-
-
-def process_roundtrips_stack():
-    Utilities.init_logging("roundtrips_oldstack.log")
-    y1_ed, y2_er, y3_soc = Utilities.get_data()
-    lmax_indices, lmin_indices = get_local_extremes(y3_soc)
-    trip_endpoints = []   # for graphics
-
-    stack_of_trips = []
-    completed_trips = []
-    # trip: tuple of (indices_ls, starting_lmax, energy_delivered_values_ls, energy_retrieved_values_ls)
-
-    passed_lmin = False
-    for i in range(len(y3_soc)):
-        current_value = y3_soc[i]
-        # is it a starting point for a trip?
-        if i in lmax_indices:
-            logging.info("Starting trip at i=" + str(i))
-            stack_of_trips.append(([i], current_value,  [y1_ed[i]], [y2_er[i]]))
-            passed_lmin = False
-        elif i in lmin_indices:
-            logging.info("Passed local minimum at i=" + str(i))
-            passed_lmin = True
-        # is it the ending point of a trip? It must have gone beyond a minimum, with both discharge and recharge
-        elif len(stack_of_trips) > 0:  # check that we are in a trip
-            if passed_lmin and (abs(current_value - stack_of_trips[-1][1]) < 0.5):
-                logging.info("Ending trip that started at " + str(stack_of_trips[-1][0][0]) + ", at i=" + str(i))
-                completed_trips.append(stack_of_trips.pop())
-                trip_endpoints.append(i)
-            else:  # general case: add e.r. and e.d. to the dictionary of the current trip
-                current_trip = stack_of_trips[-1]
-                if not(isnan(y1_ed[i])) and not(isnan(y1_ed[i])):
-                    current_trip[0].append(i)
-                    current_trip[2].append(y1_ed[i])
-                    current_trip[3].append(y1_ed[i])
-
-    return completed_trips, trip_endpoints
-
-
 class Trip:
-    def __init__(self):
-        self.start_idx = 0
+    def __init__(self, start_idx):
+        self.start_idx = start_idx
         self.end_idx = 0
         self.energy_delivered = 0
         self.energy_received = 0
 
 
-def get_simple_trips(epsilon=1):
-    Utilities.init_logging("simple_trips.log")
+def get_local_max(soc_ls, k=20, min_value=60):
+    # Parameters: k = time slots of monotonic increase of the SOC followed by monotonic decrease
+    #             min_value = the minimum SOC value for a point to be recognized as a local maximum
+
+    local_maxima_indices = [0]  # the start is included
+
+    for i in range(k,len(soc_ls)-k):
+        prev = soc_ls[i-k:i]
+        next = soc_ls[i+1:i+k+1]
+        if all([soc_ls[i] > soc for soc in prev]):
+            if all([soc_ls[i] > soc for soc in next]):
+                if soc_ls[i] > min_value:
+                    local_maxima_indices.append(i)
+
+    return local_maxima_indices
+
+
+def conclude_trip(end_idx, trip, y1_ed, y2_er, y3_soc):
+    proposed_endpoint_soc = y3_soc[end_idx]
+    if abs(y3_soc[trip.start_idx] - proposed_endpoint_soc) < 1:
+        trip.end_idx = end_idx
+    else:  # we must change the extremes of the roundtrip. Either:
+        if proposed_endpoint_soc >= y3_soc[trip.start_idx]:  # 1) backtrack
+            for j in range(end_idx, trip.start_idx , -1):
+                if abs(y3_soc[trip.start_idx] - y3_soc[j]) < 1:
+                    trip.end_idx = j
+                    break
+                trip.end_idx = None
+        else:  # 2) bring the starting index forward
+            for s in range(trip.start_idx, end_idx):
+                trip.end_idx = end_idx  # endpoint unchanged
+                if abs(y3_soc[s] - y3_soc[end_idx]) < 1:
+                    trip.start_idx = s
+                    break
+                trip.start_idx = None  # if there is no way to obtain a valid trip (e.g. at the end of the SOC line)
+
+    # update the values of energy delivered and energy retrieved
+    trip.energy_delivered = y1_ed[trip.end_idx] - y1_ed[trip.start_idx]
+    trip.energy_received = y2_er[trip.end_idx] - y2_er[trip.start_idx]
+
+    return trip
+
+
+def process_roundtrips():
     y1_ed, y2_er, y3_soc = Utilities.get_data()
+    lmax_indices = get_local_max(y3_soc)
 
-    trips_ls = []
+    trips_ls = [Trip(0)]
 
-    starting_idx = 0
-    starting_charge_state = y3_soc[0]
-    starting_ed = y1_ed[0]
-    starting_er = y2_er[0]
-    # stop_points = [0]
+    for i in range(1,len(y3_soc)):
+        trip = trips_ls[-1]  # select the current trip
+        # if we have to start a new trip from a local maximum: conclude the previous one, record its energy values
+        if i in lmax_indices:
+            conclude_trip(i, trip, y1_ed, y2_er, y3_soc)
+            if i != max(lmax_indices):
+                new_trip = Trip(i)
+                trips_ls.append(new_trip)
 
-    for i in range(1, len(y3_soc)):
-        current_charge_state = y3_soc[i]
-        current_ed = y1_ed[i]
-        current_er = y2_er[i]
-        if i > starting_idx+15 and (abs(current_charge_state-starting_charge_state) < epsilon):
-            logging.debug("current_charge_state = " + str(current_charge_state))
-            logging.debug("starting_charge_state = " + str(starting_charge_state))
-            trip = Trip()
-            trip.start_idx = starting_idx
-            trip.end_idx = i
-            trip.energy_delivered = current_ed - starting_ed
-            trip.energy_received = current_er - starting_er
-            trips_ls.append(trip)
-            # then, re-initialize for the next trip
-            starting_idx = i
-            starting_ed = current_ed
-            starting_er = current_er
+    trips_ls = [t for t in trips_ls if t.start_idx is not None and t.end_idx is not None]
 
-    return trips_ls[0:-1]  # exclude the last
+    return trips_ls
+
+

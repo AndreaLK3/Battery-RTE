@@ -1,4 +1,4 @@
-import pandas as pd
+import numpy as np
 import Utilities
 import Compute
 from math import isnan
@@ -46,9 +46,11 @@ def check_assumptions():
     return a1_not_true_idx, a2_not_true_idx
 
 
+
+
 def exe():
     Utilities.logging.info("rte.log")
-    trips = Compute.get_simple_trips()
+    trips = Compute.process_roundtrips()
 
     rte_ls = []
     for trip in trips:
@@ -56,5 +58,9 @@ def exe():
         rte_ls.append(trip_efficiency)
 
     logging.info("Trips efficiency: " + str(rte_ls))
-    avg_eff = sum(rte_ls) / len(rte_ls)
-    logging.info("Average trip efficiency = " + str(avg_eff))
+
+    max_trip_ed = max([])
+
+    efficiency = [(trips[i].energy_delivered / trips[i].energy_received) for i in range(len(trips))]
+    weighted_avg = sum([weights[i]*efficiency[i] for i in range(len(efficiency))])
+    logging.info("Trip efficiency: weighted average by trip length = " + str(weighted_avg))
