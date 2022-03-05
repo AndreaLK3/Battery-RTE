@@ -72,7 +72,7 @@ def conclude_trip(end_idx, trip, y1_ed, y2_er, y3_soc):
 
 
 # Go from the first to the last time instant, defining the trips and their energy values, necessary to estimate the RTE
-def process_roundtrips():
+def process_trips():
     # load the data
     df = pd.read_csv("BESS_op_data.csv")
     y1_ed = df["ENERGY_DELIVERED"].to_list()
@@ -100,19 +100,19 @@ def process_roundtrips():
 
 if __name__ == "__main__":
 
-    trips = process_roundtrips()
+    trips = process_trips()
     rte_ls = []
     for trip in trips:
         trip_efficiency = trip.energy_delivered / trip.energy_received
         rte_ls.append(trip_efficiency)
 
     logging.debug("Trips efficiency: " + str(rte_ls))
-    print("Average over " + str(len(trips)) + " trips = " + str(
+    print("Average RTE over " + str(len(trips)) + " trips = " + str(
         round(sum(rte_ls) / len(rte_ls) * 100, 2)) + "%")
 
     soc_deltas = [t.max_soc - t.min_soc for t in trips]
     weights = [delta / sum(soc_deltas) for delta in soc_deltas]
 
     weighted_avg = sum([weights[i] * rte_ls[i] for i in range(len(trips))])
-    print("Average over " + str(len(trips)) + " trips (weighted by each trip's Δ SOC) = " + str(
+    print("Average RTE over " + str(len(trips)) + " trips (weighted by each trip's Δ SOC) = " + str(
         round(weighted_avg * 100, 2)) + "%")
