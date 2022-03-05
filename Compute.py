@@ -59,7 +59,7 @@ def conclude_trip(end_idx, trip, y1_ed, y2_er, y3_soc):
                     break
                 trip.start_idx = None  # if there is no way to obtain a valid trip (e.g. at the end of the SOC line)
 
-    # update the values of energy delivered, energy retrieved, and the SOC delta of the trip
+    # update the values of energy delivered, energy received, and the SOC delta of the trip
     trip.energy_delivered = y1_ed[trip.end_idx] - y1_ed[trip.start_idx]
     trip.energy_received = y2_er[trip.end_idx] - y2_er[trip.start_idx]
     trip.set_max_soc(y3_soc)
